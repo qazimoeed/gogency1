@@ -236,10 +236,10 @@ body {
 	padding-top: 110px;
 }
 .uls {
-	margin-left: 120px;
+	margin-left: 100px;
 	font-size: 24px;
 	margin-top: 60px;
-	width: 500px;
+	width: 450px;
 	font-weight: 500;
 	line-height: 28.13px;
 }
@@ -777,15 +777,26 @@ team and management
 	display: inline-block;
 }
 
-.timecard {
+.timecardflex {
+	display: flex;
+	gap: 12px;
+	align-items: flex-start;
+}
+.timeManageCard {
+	display: flex;
 	text-align: center;
 	width: 184px;
-	height: 260px;
-	top: 5857px;
-	left: 667px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex-direction: column;
+	align-items: center;
 }
-
+.timeManageCard > span {
+	margin: 10px;
+	display: inline-block;
+}
+.timeManageCard > div > span {
+	margin: 10px;
+	display: inline-block;
+}
 .timecardParagraph {
 	font-family: Open Sans;
 	font-size: 12px;
@@ -819,4 +830,36 @@ a:hover {
 	width: 84px;
 	height: 84px;
 	text-align: center;
+}
+.cardbackcircleText {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+}
+
+.cardbackcircle1 {
+	background-image: url("./assets/timeCardback1.svg");
+	width: 40px;
+	align-content: center;
+	height: 40px;
+}
+.cardbackcircle2 {
+	background-image: url("./assets/timeCardback2.svg");
+	width: 40px;
+	height: 40px;
+	align-content: center;
+}
+.cardbutton {
+	width: 140px;
+	height: 32px;
+	border-radius: 40px;
+	border: 1px;
+	background: #ffffff;
+	border: 1px solid #212121;
+}
+.timeManageCardBoundary {
+	display: flex;
+	flex-direction: column;
 }
