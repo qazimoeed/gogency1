@@ -5,6 +5,7 @@ import logo from "../assets/gogencylogo.svg"
 export default function Navbar() {
 	return (
 		<>
+{/* 			test comment */}
 			<nav className="navbar">
 				<div className="logo">
 					<img src={logo} alt="Logo" />
