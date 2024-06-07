@@ -1,12 +1,13 @@
 import React from "react"
 import "../src/style.css"
+import logo from "../assets/gogencylogo.svg"
 
 export default function Navbar() {
 	return (
 		<>
 			<nav className="navbar">
 				<div className="logo">
-					<img src="../assets/gogencylogo.svg" alt="Logo" />
+					<img src={logo} alt="Logo" />
 				</div>
 				<ul className="tabs">
 					<li>
