@@ -5,7 +5,7 @@ export default function Navbar() {
 		<>
 			<nav className="navbar">
 				<div className="logo">
-					<img src="./assets/gogencylogo.svg" alt="Logo" />
+					<img src="/assets/gogencylogo.svg" alt="Logo" />
 				</div>
 				<ul className="tabs">
 					<li>
