@@ -64,156 +64,144 @@ export default function TimeManagement() {
 						<button className="cardbutton">Profile Details</button>
 					</p>
 				</div>
+			</div>
 
-				<div className="timeManageCardBoundary">
-					<div className="innertrack1">
-						<div>
-							<h3>
-								<b>#3621245</b>
-							</h3>
-							<p>2m ago</p>
-						</div>
-						<div>
-							<h3>
-								<b>Arsalan Tariq</b>
-							</h3>
-							<p>arslantariqarsal@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>John Doe</b>
-							</h3>
-							<p>johndoe@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>LON</b>
-							</h3>
-							<p>London</p>
-						</div>
-						<div>
-							<h3>
-								<b>ACC</b>
-							</h3>
-							<p>accra</p>
-						</div>
-						<div>
-							<h3>
-								<b>13-10-2023</b>
-							</h3>
-							<p>
-								<b>13-10-2023</b>
-							</p>
-						</div>
-						<div>
-							<h3>
-								<b>1 Passenger</b>
-							</h3>
-							<p>$1500</p>
-						</div>
-						<div>
-							<img src="./assets/tracklogo.svg" className="trackimagecard" />
-						</div>
-					</div>
-					<div className="innertrack1">
-						<div>
-							<h3>
-								<b>#3621245</b>
-							</h3>
-							<p>2m ago</p>
-						</div>
-						<div>
-							<h3>
-								<b>Arsalan Tariq</b>
-							</h3>
-							<p>arslantariqarsal@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>John Doe</b>
-							</h3>
-							<p>johndoe@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>LON</b>
-							</h3>
-							<p>London</p>
-						</div>
-						<div>
-							<h3>
-								<b>ACC</b>
-							</h3>
-							<p>accra</p>
-						</div>
-						<div>
-							<h3>
-								<b>13-10-2023</b>
-							</h3>
-							<p>
-								<b>13-10-2023</b>
-							</p>
-						</div>
-						<div>
-							<h3>
-								<b>1 Passenger</b>
-							</h3>
-							<p>$1500</p>
-						</div>
-						<div>
-							<img src="./assets/tracklogo.svg" className="trackimagecard" />
-						</div>
-					</div>
-					<div className="innertrack1">
-						<div>
-							<h3>
-								<b>#3621245</b>
-							</h3>
-							<p>2m ago</p>
-						</div>
-						<div>
-							<h3>
-								<b>Arsalan Tariq</b>
-							</h3>
-							<p>arslantariqarsal@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>John Doe</b>
-							</h3>
-							<p>johndoe@gmail.com</p>
-						</div>
-						<div>
-							<h3>
-								<b>LON</b>
-							</h3>
-							<p>London</p>
-						</div>
-						<div>
-							<h3>
-								<b>ACC</b>
-							</h3>
-							<p>accra</p>
-						</div>
-						<div>
-							<h3>
-								<b>13-10-2023</b>
-							</h3>
-							<p>
-								<b>13-10-2023</b>
-							</p>
-						</div>
-						<div>
-							<h3>
-								<b>1 Passenger</b>
-							</h3>
-							<p>$1500</p>
-						</div>
-						<div>
-							<img src="./assets/tracklogo.svg" className="trackimagecard" />
-						</div>
-					</div>
-				</div>
+			<div className="easypaybottomboun">
+				<table className="easyPaymentCardBottomBoundary">
+					<h2>
+						<b>Attendent List</b>
+					</h2>
+					<tbody>
+						<tr>
+							<td>
+								<p>Employee Number</p>
+							</td>
+							<td>
+								<p>Employee Name</p>
+							</td>
+							<td>
+								<p>Department</p>
+							</td>
+							<td>
+								<p>Date</p>
+							</td>
+							<td>
+								<p>Login Time</p>
+							</td>
+							<td>
+								<p>Logout Time</p>
+							</td>
+							<td>
+								<p>Details</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>5570</b>
+							</td>
+							<td className="timeinnercardflex">
+								<img src="./assets/timeCard1.svg" />
+								<span>
+									<p>Elvis Moren</p>
+									<p>UX Designer</p>
+								</span>
+							</td>
+							<td>
+								<p>Product Development</p>
+								<p>Design Team</p>
+							</td>
+							<td>
+								<p>
+									<b>12-23-21</b>
+								</p>
+								<p>Thursday</p>
+							</td>
+							<td>
+								<p>
+									<b>09:30 AM</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<b>ON DUTY</b>
+								</p>
+							</td>
+							<td>
+								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>5570</b>
+							</td>
+							<td className="timeinnercardflex">
+								<img src="./assets/timeCard1.svg" />
+								<span>
+									<p>Elvis Moren</p>
+									<p>UX Designer</p>
+								</span>
+							</td>
+							<td>
+								<p>Product Development</p>
+								<p>Design Team</p>
+							</td>
+							<td>
+								<p>
+									<b>12-23-21</b>
+								</p>
+								<p>Thursday</p>
+							</td>
+							<td>
+								<p>
+									<b>09:30 AM</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<b>ON DUTY</b>
+								</p>
+							</td>
+							<td>
+								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>5570</b>
+							</td>
+							<td className="timeinnercardflex">
+								<img src="./assets/timeCard1.svg" />
+								<span>
+									<p>Elvis Moren</p>
+									<p>UX Designer</p>
+								</span>
+							</td>
+							<td>
+								<p>Product Development</p>
+								<p>Design Team</p>
+							</td>
+							<td>
+								<p>
+									<b>12-23-21</b>
+								</p>
+								<p>Thursday</p>
+							</td>
+							<td>
+								<p>
+									<b>09:30 AM</b>
+								</p>
+							</td>
+							<td>
+								<p>
+									<b>ON DUTY</b>
+								</p>
+							</td>
+							<td>
+								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</>
 	)

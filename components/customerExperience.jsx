@@ -60,6 +60,66 @@ export default function CustomerExperience() {
 					</section>
 				</div>
 			</section>
+			<div className="easypaybottomboun">
+				<table className="easyPaymentCardBottomBoundary">
+					<tr>
+						<td>
+							<b># 1</b>
+						</td>
+						<td>
+							<b>Syed Zulqarnain</b>
+						</td>
+						<td>
+							<p>HSpC</p>
+						</td>
+						<td>
+							<p>364RGT093</p>
+						</td>
+						<td>
+							<b>$ 900</b>
+						</td>
+						<td>
+							<p className="pending">Pending</p>
+						</td>
+						<td>
+							<button className="easypaymentbutton">Confirm</button>
+						</td>
+						<td>
+							<img src="../assets/tracklogo.svg" />
+						</td>
+					</tr>
+				</table>
+				<table className="easyPaymentCardBottomBoundary">
+					<tbody>
+						<tr>
+							<td>
+								<b># 1</b>
+							</td>
+							<td>
+								<b>Syed Zulqarnain</b>
+							</td>
+							<td>
+								<p>HSpC</p>
+							</td>
+							<td>
+								<p>364RGT093</p>
+							</td>
+							<td>
+								<b>$ 900</b>
+							</td>
+							<td>
+								<p className="done">Done</p>
+							</td>
+							<td>
+								<button className="easypaymentbutton">Confirm</button>
+							</td>
+							<td>
+								<img src="../assets/tracklogo.svg" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</>
 	)
 }

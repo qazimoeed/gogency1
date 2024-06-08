@@ -1,5 +1,4 @@
 import React from "react"
-// import Globe from "./magicui/globe"
 
 export default function HeroSection() {
 	return (

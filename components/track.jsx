@@ -276,12 +276,6 @@ export default function Track() {
 					<li>Create a Multiple suggestions</li>
 				</h1>
 
-				{/* 
-
-
-
- */}
-
 				<div className="outerSuggesionBoundary">
 					<div className="image-text">
 						<div className="suggestions">

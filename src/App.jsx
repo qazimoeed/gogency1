@@ -7,18 +7,21 @@ import "./style.css"
 import CustomerExperience from "../components/customerExperience"
 import Track from "../components/track"
 import TimeManagement from "../components/timeManagement"
+import Easypayments from "../components/easypayments"
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<HeroSection />
+			{/* <Navbar />
+			<HeroSection />*/}
 			<Section1 />
-			<Track />
-			{/* <CustomerExperience /> */}
+			{/* <Track />  */}
+			{/*have to work on cards by changing them into tables or something else */}
+			<CustomerExperience />
+			<Easypayments />
 			<TimeManagement />
 			<LastSection />
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	)
 }

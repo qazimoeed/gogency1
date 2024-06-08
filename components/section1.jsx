@@ -33,7 +33,7 @@ export default function Section1() {
 							</p>
 							<button className="sec1Btn aligns">Lets Move !</button>
 						</div>
-						<img src="./assets/sect1botomVector.svg" />
+						{/* <img src="./assets/sect1botomVector.svg" /> */}
 					</div>
 				</div>
 			</div>
