@@ -3,9 +3,9 @@ import React from "react"
 export default function CustomerExperience() {
 	return (
 		<>
-			<section className="section1Container">
-				<h1 className="firstHeading">Customer</h1>
-				<h1 className="secondHeading">EXPERIENCE</h1>
+			<section>
+				<h1 className="firstHeadingCustomer">Customer</h1>
+				<h1 className="secondHeadingCustomer">EXPERIENCE</h1>
 				<div className="boxesBoundary">
 					<section>
 						<div className="custbox1">

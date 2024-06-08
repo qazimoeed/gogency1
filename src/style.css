@@ -1,12 +1,14 @@
 body {
 	font-family: Roboto;
+	background-color: #ffffff;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 80px 20px 80px;
+	padding: 20px 70px 20px 70px;
+	border-bottom: 1px solid #c3c3c3;
 }
 
 .logo img {
@@ -34,9 +36,7 @@ body {
 
 .tabs a {
 	color: black;
-	font-family: "FONTSPRING DEMO - Halcyon Medium";
-	font-size: 20px;
-	font-weight: 900;
+	vertical-align: middle;
 	text-decoration: none;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 @media (min-width: 1200px) {
 	.navbar {
-		padding: 20px 100px;
+		padding: 15px 75px;
 	}
 
 	.tabs {
@@ -124,24 +124,38 @@ body {
 	}
 }
 
+/*                  
+
+
+Hero Section 
+
+
+
+*/
 .heroVector {
-	background-image: url("/assets/heroVector.svg");
+	background-image: url(/assets/heroVector.svg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: inherit;
+	height: 500px;
+	padding: 146px 75px 0px 75px;
+	margin-bottom: 300px;
 	background-position: center;
 }
 
 .heroContainer {
-	margin: 40px;
-	padding: 80px;
+	padding: 70px 0px;
 	text-align: center;
 }
 
 .heroHeading {
-	font-size: 62px;
-	font-weight: 900;
-	line-height: 1.2;
+	margin-bottom: 0px;
 	height: auto;
+	font-family: Roboto;
+	font-size: 82px;
+	font-weight: 900;
+	line-height: 72.16px;
+	margin-top: -28px;
+	text-align: center;
 }
 
 .heroPara {
@@ -154,7 +168,7 @@ body {
 	width: auto;
 	height: auto;
 	align-items: center;
-	margin-left: 0;
+	margin: 29px 0px;
 	gap: 30px;
 	padding: 15px;
 	display: flex;
@@ -193,8 +207,8 @@ body {
 	height: auto;
 	margin-top: 20px;
 }
-
-/* Mobile */
+/* 
+/* Mobile
 @media (max-width: 480px) {
 	.heroContainer {
 		margin: 20px;
@@ -221,7 +235,7 @@ body {
 	}
 }
 
-/* Tablets */
+/* Tablets  
 @media (min-width: 481px) and (max-width: 768px) {
 	.heroContainer {
 		margin: 20px;
@@ -247,7 +261,7 @@ body {
 	}
 }
 
-/* Laptops */
+/* Laptops  
 @media (min-width: 769px) and (max-width: 1024px) {
 	.heroContainer {
 		margin: 40px;
@@ -263,7 +277,7 @@ body {
 	}
 }
 
-/* Large Screens */
+/* Large Screens  
 @media (min-width: 1025px) and (max-width: 1440px) {
 	.heroContainer {
 		margin: 40px;
@@ -279,57 +293,60 @@ body {
 	}
 }
 
-/* 4K 2560 Screens */
+/* 4K 2560 Screens  
 @media (min-width: 1441px) and (max-width: 2560px) {
 	.heroContainer {
-		margin: 40px;
+		margin: 100px 0px 100px 0px;
 		padding: 80px;
 	}
 
 	.heroHeading {
 		font-size: 82px;
+		padding: 104px;
 	}
 
 	.heroPara {
 		font-size: 28px;
 	}
-}
+} */
 
 /* ,,,,,......,.,Section 1 .,.,.,,,,,,,,,,,. */
+
+.section1Container {
+	margin: 40px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
+}
 
 .secOneCont {
 	display: flex;
 	align-items: stretch;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
-.firstHeading {
+.firstHeadingSection1 {
 	width: 446px;
 	height: 91px;
-	margin-left: 80px;
+	padding-top: 50px;
+	margin-left: 0px;
 	font-size: 103px;
 	font-weight: 900;
 	line-height: 90.64px;
 	text-align: left;
 	margin-bottom: 0px;
 }
-.secondHeading {
+.secondHeadingSection1 {
 	font-size: 103px;
 	font-weight: 200;
 	line-height: 90.64px;
 	text-align: left;
 	height: 91px;
-	margin-left: 144px;
+	margin-left: 65px;
 	margin-top: 0px;
 }
-.section1Container {
-	margin: 40px 0px;
-	padding: 80px 0px;
-}
+
 .firstPara {
 	width: 629px;
 	height: 116px;
-	padding-left: 80px;
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 24.36px;
@@ -338,7 +355,6 @@ body {
 .sec1Btn {
 	width: 200px;
 	height: 50px;
-	margin-left: 80px;
 	padding: 15px 50px 15px 50px;
 	background-color: #212121;
 	border-radius: 30px;
@@ -553,7 +569,31 @@ body {
 	}
 }
 
-/* Experice Section ..........,,,,,,,,,,,,,,,.......... */
+/* 
+
+Experice Section ..........,,,,,,,,,,,,,,,.......... 
+
+
+*/
+.firstHeadingCustomer {
+	width: 506px;
+	height: 91px;
+	font-size: 103px;
+	font-weight: 900;
+	line-height: 90.64px;
+	text-align: left;
+	margin: 55px 0px 0px 82px;
+	margin-bottom: 0px;
+}
+.secondHeadingCustomer {
+	font-size: 103px;
+	font-weight: 200;
+	line-height: 90.64px;
+	text-align: left;
+	height: 91px;
+	margin: 0px 0px 40px 130px;
+}
+
 .custBtn {
 	color: black;
 	border: 0px;
@@ -579,7 +619,7 @@ body {
 	align-items: center;
 	gap: 30px;
 	width: 600px;
-	padding-left: 4px;
+	padding-left: 0px;
 	padding-top: 110px;
 }
 .uls {
@@ -948,14 +988,13 @@ body {
 	margin-top: 0px;
 }
 .firstheadtrack {
-	width: 500px;
+	width: 600px;
 	height: 91px;
 	margin-left: 80px;
-	font-size: 103px;
 	font-weight: 900;
 	line-height: 90.64px;
 	text-align: left;
-	margin-bottom: 12px;
+	margin-bottom: 29px;
 }
 
 .trackBoundary {
@@ -1870,4 +1909,41 @@ a:hover {
 		width: 90%;
 		margin-left: 20px;
 	}
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.firstHeading {
+	width: 506px;
+	height: 91px;
+	padding-top: 50px;
+	margin-left: 0px;
+	font-size: 103px;
+	font-weight: 900;
+	line-height: 90.64px;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.secondHeading {
+	font-size: 103px;
+	font-weight: 200;
+	line-height: 90.64px;
+	text-align: left;
+	height: 91px;
+	margin-left: 65px;
+	margin-top: 0px;
 }

@@ -3,8 +3,7 @@ import React from "react"
 import "../style.css"
 import { useState } from "react"
 export default function Navbar() {
-	const [isOpen, setIsOpen] = useState(false) // State to track navbar visibility
-
+	const [isOpen, setIsOpen] = useState(false)
 	const toggleNavbar = () => {
 		setIsOpen(!isOpen)
 	}
@@ -25,10 +24,13 @@ export default function Navbar() {
 						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#">About</a>
+						<a href="#">Features</a>
 					</li>
 					<li>
-						<a href="#">Services</a>
+						<a href="#">Testimonials</a>
+					</li>
+					<li>
+						<a href="#">Pricing</a>
 					</li>
 					<li>
 						<a href="#">Contact</a>

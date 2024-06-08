@@ -5,8 +5,8 @@ export default function Section1() {
 		<>
 			<div className="section1Container secOneCont">
 				<div>
-					<h1 className="firstHeading">One Click</h1>
-					<h1 className="secondHeading">Fill Website</h1>
+					<h1 className="firstHeadingSection1">One Click</h1>
+					<h1 className="secondHeadingSection1">FILL WEBSITE</h1>
 					<p className="firstPara">Click on Create website</p>
 					<button className="sec1Btn">Try Now !</button>
 				</div>

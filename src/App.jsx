@@ -15,8 +15,8 @@ function App() {
 			<Navbar />
 			<HeroSection />
 			<Section1 />
-			<Track />
 			<CustomerExperience />
+			<Track />
 			<Easypayments />
 			<TimeManagement />
 			<LastSection />
