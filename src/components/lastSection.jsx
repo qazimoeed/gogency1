@@ -35,7 +35,7 @@ export default function LastSection() {
 					</div>
 				</div>
 				<div>
-					<img src="./assets/greenImage.svg" className="greenImage" />
+					<img src="/assets/greenImage.svg" className="greenImage" />
 				</div>
 			</div>
 		</section>

@@ -2,63 +2,6 @@ body {
 	font-family: Roboto;
 }
 
-/* .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 80px 20px 80px;
-}
-
-.logo img {
-	width: 200px;
-	height: 50.55px;
-}
-
-.tabs {
-	list-style: none;
-	display: flex;
-	gap: 10px;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 19.2px;
-	text-align: left;
-
-	width: 400px;
-	justify-content: space-between;
-	padding: 1px 0px 1px 0px;
-}
-
-.tabs li {
-	line-height: 19.2px;
-	text-align: left;
-}
-
-.tabs a {
-	color: black;
-	font-family: "FONTSPRING DEMO - Halcyon Medium";
-	font-size: 20px;
-	font-weight: 900;
-	text-decoration: none;
-}
-
-.button {
-	background-color: #24ea28;
-	color: black;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-	text-align: center;
-}
-
-.button:hover {
-	background-color: #45a049;
-} */
-
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -138,7 +81,7 @@ body {
 	.navbar {
 		padding: 20px;
 		flex-direction: row;
-		justify-content: space-between; /* Distribute logo and burger button at opposite ends */
+		justify-content: space-between;
 		align-items: center;
 	}
 
@@ -148,7 +91,7 @@ body {
 
 	.menu-toggle {
 		display: block;
-		margin-left: auto; /* Push the burger button to the right */
+		margin-left: auto;
 	}
 
 	.navbar.show .tabs {
@@ -181,70 +124,8 @@ body {
 	}
 }
 
-/* Hero Section */
-/* .heroVector {
-	background-image: url("./assets/heroVector.svg");
-	background-repeat: no-repeat;
-}
-.heroContainer {
-	margin: 40px;
-	padding: 80px;
-	text-align: center;
-}
-.heroHeading {
-	font-size: 82px;
-	font-weight: 900;
-	line-height: 72px;
-	height: 144px;
-}
-.heroPara {
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.heroCta {
-	width: 500px;
-	height: 50px;
-	align-items: center;
-	margin-left: 215px;
-	gap: 30px;
-	padding: 15px 74px 15px 74px;
-	display: flex;
-}
-
-.btnFont {
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-	text-align: center;
-	color: #24ea28;
-}
-.firstBtn {
-	width: 246px;
-	height: 50px;
-	background-color: #212121;
-	border-radius: 30px;
-	border: none;
-}
-
-.secondBtn {
-	width: 246px;
-	height: 50px;
-	background-color: #ffffff;
-	border-radius: 30px;
-	border: none;
-	color: #212121;
-	border: 1px solid #212121;
-}
-
-.earthImage {
-	width: 527px;
-	height: 527px;
-	margin-top: 20px;
-} */
-
 .heroVector {
-	background-image: url("./assets/heroVector.svg");
+	background-image: url("/assets/heroVector.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -480,7 +361,7 @@ body {
 	margin-left: 20px;
 }
 .sect1back {
-	background-image: url("./assets/sect1TopVector.svg");
+	background-image: url("/assets/sect1TopVector.svg");
 	width: 469px;
 	height: 264px;
 }
@@ -787,7 +668,7 @@ body {
 /* LastSection ,,,,,,,,,,,,,,,...................,,,,,,,,,,,,,,,,*/
 .lastSectionBoundary {
 	height: 875.5px;
-	background-image: url("./assets/rectanglegreen.svg");
+	background-image: url("/assets/rectanglegreen.svg");
 }
 
 .footerCTA {
@@ -1101,7 +982,7 @@ body {
 	height: 25.08px;
 }
 .detailsInquiryBoundary {
-	background-image: url("./assets/heroVector.svg");
+	background-image: url("/assets/heroVector.svg");
 	padding: 0px 0px;
 	margin-bottom: 80px;
 }
@@ -1615,13 +1496,13 @@ a:hover {
 }
 
 .cardbackcircle1 {
-	background-image: url("./assets/timeCardback1.svg");
+	background-image: url("/assets/timeCardback1.svg");
 	width: 40px;
 	align-content: center;
 	height: 40px;
 }
 .cardbackcircle2 {
-	background-image: url("./assets/timeCardback2.svg");
+	background-image: url("/assets/timeCardback2.svg");
 	width: 40px;
 	height: 40px;
 	align-content: center;
@@ -1679,7 +1560,7 @@ a:hover {
 
 	.easyPaymentCardBottomBoundary table {
 		width: 100%;
-		min-width: 600px; /* Adjust this value based on your table width */
+		min-width: 600px;
 	}
 }
 
@@ -1753,7 +1634,7 @@ a:hover {
 /* ///easypayment section */
 
 .easyPayBoun {
-	background-image: url("../assets/custom.svg");
+	background-image: url("/assets/custom.svg");
 	padding: 20px;
 }
 
@@ -1837,7 +1718,7 @@ a:hover {
 /*  */
 
 .easyPayBoun {
-	background-image: url("../assets/custom.svg");
+	background-image: url("/assets/custom.svg");
 	padding: 20px;
 }
 

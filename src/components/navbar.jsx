@@ -1,5 +1,7 @@
 import React from "react"
-import "../src/style.css"
+
+import "../style.css"
+import { useState } from "react"
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false) // State to track navbar visibility
 
@@ -11,7 +13,7 @@ export default function Navbar() {
 		<>
 			<nav className="navbar">
 				<div className="logo">
-					<img src={logo} alt="Logo" />
+					<img src="/assets/gogencylogo.svg" alt="Logo" />
 				</div>
 				<div className="menu-toggle">
 					<button className="burger-btn" onClick={toggleNavbar}>

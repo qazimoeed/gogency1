@@ -60,7 +60,7 @@ export default function Track() {
 						<p>$1500</p>
 					</div>
 					<div>
-						<img src="./assets/tracklogo.svg" className="trackimagecard" />
+						<img src="/assets/tracklogo.svg" className="trackimagecard" />
 					</div>
 				</div>
 				<div className="innertrack1">
@@ -109,7 +109,7 @@ export default function Track() {
 						<p>$1500</p>
 					</div>
 					<div>
-						<img src="./assets/tracklogo.svg" className="trackimagecard" />
+						<img src="/assets/tracklogo.svg" className="trackimagecard" />
 					</div>
 				</div>
 				<div className="innertrack1">
@@ -158,7 +158,7 @@ export default function Track() {
 						<p>$1500</p>
 					</div>
 					<div>
-						<img src="./assets/tracklogo.svg" className="trackimagecard" />
+						<img src="/assets/tracklogo.svg" className="trackimagecard" />
 					</div>
 				</div>
 			</div>
@@ -170,7 +170,7 @@ export default function Track() {
 				<div className="detailsInquiry">
 					<div className="firstTrackercard">
 						<div class="trackerFlex">
-							<img src="./assets/trackerImage.svg" className="trackerImage" />
+							<img src="/assets/trackerImage.svg" className="trackerImage" />
 
 							<div className="trackercardInfo trackercardinfotext">
 								<h3>
@@ -181,12 +181,12 @@ export default function Track() {
 								<p>483 green lanes</p>
 								<p>N13 4BS, UK.</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/call.svg" />
+									<img src="/assets/call.svg" />
 									<p>Nav Ahmed</p>
 								</div>
 							</div>
 							<div>
-								<img src="./assets/trackeredit_icon.svg" />
+								<img src="/assets/trackeredit_icon.svg" />
 							</div>
 						</div>
 						<div className="lowertrackerCard">
@@ -208,14 +208,14 @@ export default function Track() {
 					<div className="firstTrackercard">
 						<div className="secondCardTop">
 							<div className="secondcardtopinfo">
-								<img src="./assets/airline_logo.svg" />
+								<img src="/assets/airline_logo.svg" />
 								<p>Emirates Airline</p>
 								<p>
 									<b>Economy Class</b>
 								</p>
 							</div>
 							<div>
-								<img src="./assets/trackeredit_icon.svg" />
+								<img src="/assets/trackeredit_icon.svg" />
 							</div>
 						</div>
 
@@ -225,7 +225,7 @@ export default function Track() {
 								<p className="secondTrackCardRed">LON</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -234,7 +234,7 @@ export default function Track() {
 								<p className="secondTrackCardRed ">NYC</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo rightAlignFlex">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -243,26 +243,23 @@ export default function Track() {
 						<div className="secondCardTrackerLowerFlex">
 							<div className="lowerlefttrackerCard">
 								<img
-									src="./assets/VectorCurency.svg"
+									src="/assets/VectorCurency.svg"
 									className="lowercardTrackerImage"
 								/>
 								<p> $ 0</p>
 							</div>
 							<div className="secondCardSideImage">
 								<div className="secondCardImageText">
-									<img src="./assets/VectorUser.svg" alt="Image description" />
+									<img src="/assets/VectorUser.svg" alt="Image description" />
 									<span>2</span>
 								</div>
 								<div className="secondCardImageText">
-									<img
-										src="./assets/VectorChilds.svg"
-										alt="Image description"
-									/>
+									<img src="/assets/VectorChilds.svg" alt="Image description" />
 									<span>3</span>
 								</div>
 								<div className="secondCardImageText">
 									<img
-										src="./assets/Vectornewborn.svg"
+										src="/assets/Vectornewborn.svg"
 										alt="Image description"
 									/>
 									<span>0</span>
@@ -279,29 +276,29 @@ export default function Track() {
 				<div className="outerSuggesionBoundary">
 					<div className="image-text">
 						<div className="suggestions">
-							<img src="./assets/RadioButton.svg" alt="Image description" />
+							<img src="/assets/RadioButton.svg" alt="Image description" />
 							<span> Suggestion # 1 </span>
 						</div>
 						<div className="suggestions">
-							<img src="./assets/RadioButton.svg" alt="Image description" />
+							<img src="/assets/RadioButton.svg" alt="Image description" />
 							<span> Suggestion # 2 </span>
 						</div>
 						<div className="suggestions">
-							<img src="./assets/RadioButton.svg" alt="Image description" />
+							<img src="/assets/RadioButton.svg" alt="Image description" />
 							<span> Suggestion # 3 </span>
 						</div>
 						<div className="suggestions">
-							<img src="./assets/RadioButton.svg" alt="Image description" />
+							<img src="/assets/RadioButton.svg" alt="Image description" />
 							<span> Suggestion # 4 </span>
 						</div>
 						<div className="suggestions">
-							<img src="./assets/RadioButton.svg" alt="Image description" />
+							<img src="/assets/RadioButton.svg" alt="Image description" />
 							<span> Suggestion # 5 </span>
 						</div>
 					</div>
 					<div>
 						<img
-							src="./assets/trackeredit_icon.svg"
+							src="/assets/trackeredit_icon.svg"
 							className="suggestionEditIcon"
 						/>
 					</div>
@@ -316,7 +313,7 @@ export default function Track() {
 								<p>Return</p>
 							</div>
 
-							<img src="./assets/Vector.svg" />
+							<img src="/assets/Vector.svg" />
 						</div>
 						<div className="suggestionCard1Mid">
 							<div>
@@ -324,7 +321,7 @@ export default function Track() {
 								<p className="secondTrackCardRed">LON</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -332,7 +329,7 @@ export default function Track() {
 							<div className="suggestionbottoninfo ">
 								<p className="suggestiontextTime">1 hour 10 minutes</p>
 								<img
-									src="./assets/airline_logo.svg"
+									src="/assets/airline_logo.svg"
 									className="lowercardTrackerImage"
 								/>
 								<p className="suggestiontextTime">EK - 506</p>
@@ -343,7 +340,7 @@ export default function Track() {
 								<p className="secondTrackCardRed ">NYC</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo rightAlignFlex">
-									<img src="./assets/nonFlexible.svg" />
+									<img src="/assets/nonFlexible.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -359,7 +356,7 @@ export default function Track() {
 								<p className="secondTrackCardRed">LON</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -367,7 +364,7 @@ export default function Track() {
 							<div className="suggestionbottoninfo ">
 								<p className="suggestiontextTime">1 hour 10 minutes</p>
 								<img
-									src="./assets/airline_logo.svg"
+									src="/assets/airline_logo.svg"
 									className="lowercardTrackerImage"
 								/>
 								<p className="suggestiontextTime">EK - 506</p>
@@ -378,16 +375,16 @@ export default function Track() {
 								<p className="secondTrackCardRed ">NYC</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo rightAlignFlex">
-									<img src="./assets/nonFlexible.svg" />
+									<img src="/assets/nonFlexible.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
 						</div>
 						<div>
 							<div className="suggestionBottom">
-								<img src="./assets/suggectionBreifcase.svg" />
+								<img src="/assets/suggectionBreifcase.svg" />
 								<p>40 kg</p>
-								<img src="./assets/suggectionBag.svg" />
+								<img src="/assets/suggectionBag.svg" />
 								<p>30 kg</p>
 							</div>
 						</div>
@@ -401,7 +398,7 @@ export default function Track() {
 								<p>Return</p>
 							</div>
 
-							<img src="./assets/returnFlight.svg" />
+							<img src="/assets/returnFlight.svg" />
 						</div>
 						<div className="suggestionCard1Mid">
 							<div>
@@ -409,7 +406,7 @@ export default function Track() {
 								<p className="secondTrackCardRed">LON</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -417,7 +414,7 @@ export default function Track() {
 							<div className="suggestionbottoninfo ">
 								<p className="suggestiontextTime">1 hour 10 minutes</p>
 								<img
-									src="./assets/airline_logo.svg"
+									src="/assets/airline_logo.svg"
 									className="lowercardTrackerImage"
 								/>
 								<p className="suggestiontextTime">EK - 506</p>
@@ -428,7 +425,7 @@ export default function Track() {
 								<p className="secondTrackCardRed ">NYC</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo rightAlignFlex">
-									<img src="./assets/nonFlexible.svg" />
+									<img src="/assets/nonFlexible.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -444,7 +441,7 @@ export default function Track() {
 								<p className="secondTrackCardRed">LON</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo">
-									<img src="./assets/trackeredit_icon.svg" />
+									<img src="/assets/trackeredit_icon.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -452,7 +449,7 @@ export default function Track() {
 							<div className="suggestionbottoninfo ">
 								<p className="suggestiontextTime">1 hour 10 minutes</p>
 								<img
-									src="./assets/airline_logo.svg"
+									src="/assets/airline_logo.svg"
 									className="lowercardTrackerImage"
 								/>
 								<p className="suggestiontextTime">EK - 506</p>
@@ -463,7 +460,7 @@ export default function Track() {
 								<p className="secondTrackCardRed ">NYC</p>
 								<p className="secondTracktextTime">13-07-2023 | 02:20</p>
 								<div className="innertrackercardinfo rightAlignFlex">
-									<img src="./assets/nonFlexible.svg" />
+									<img src="/assets/nonFlexible.svg" />
 									<p className="trackercardinfotext"> Flexible</p>
 								</div>
 							</div>
@@ -471,9 +468,9 @@ export default function Track() {
 						<div>
 							<div className="suggestionBottom suggestionBottomFlex">
 								<div>
-									<img src="./assets/suggectionBreifcase.svg" />
+									<img src="/assets/suggectionBreifcase.svg" />
 									<p>40 kg</p>
-									<img src="./assets/suggectionBag.svg" />
+									<img src="/assets/suggectionBag.svg" />
 									<p>30 kg</p>
 								</div>
 								<div>

@@ -10,11 +10,11 @@ export default function CustomerExperience() {
 					<section>
 						<div className="custbox1">
 							<button className="custBtn btnFont">
-								<img src="./assets/line.svg" />
-								<img src="./assets/emailsvg.svg" />
+								<img src="/assets/line.svg" />
+								<img src="/assets/emailsvg.svg" />
 								Customer
 							</button>
-							<img src="./assets/Vector656.svg" className="helos" />
+							<img src="/assets/Vector656.svg" className="helos" />
 						</div>
 
 						<ul className="uls">
@@ -25,34 +25,34 @@ export default function CustomerExperience() {
 					</section>
 					<section>
 						<div>
-							<img src="./assets/helos.svg" className="helo" />
+							<img src="/assets/helos.svg" className="helo" />
 						</div>
 						<div className="cards">
 							<div class="card1">
-								<img src="./assets/image.svg" className="cardLogo1" />
+								<img src="/assets/image.svg" className="cardLogo1" />
 								<h1 className="card1Heading">Muhammad Arslan</h1>
 								<p className="card1Para">arslantariqarsal@gmail.com</p>
 								<p className="card1Para2">
-									<img src="./assets/address.svg" />
+									<img src="/assets/address.svg" />
 									Ecuador, Giga Mall.
 								</p>
 								<hr />
 								<p className="card1Para1">
-									<img src="./assets/call.svg" />
+									<img src="/assets/call.svg" />
 									033 6595 2950
 								</p>
 							</div>
 							<div class="card2">
-								<img src="./assets/image.svg" className="cardLogo1" />
+								<img src="/assets/image.svg" className="cardLogo1" />
 								<h1 className="card1Heading">Muhammad Arslan</h1>
 								<p className="card1Para">arslantariqarsal@gmail.com</p>
 								<p className="card1Para2">
-									<img src="./assets/address.svg" />
+									<img src="/assets/address.svg" />
 									Ecuador, Giga Mall.
 								</p>
 								<hr />
 								<p className="card1Para1">
-									<img src="./assets/call.svg" />
+									<img src="/assets/call.svg" />
 									033 6595 2950
 								</p>
 							</div>
@@ -85,7 +85,7 @@ export default function CustomerExperience() {
 							<button className="easypaymentbutton">Confirm</button>
 						</td>
 						<td>
-							<img src="../assets/tracklogo.svg" />
+							<img src="/assets/tracklogo.svg" />
 						</td>
 					</tr>
 				</table>
@@ -114,7 +114,7 @@ export default function CustomerExperience() {
 								<button className="easypaymentbutton">Confirm</button>
 							</td>
 							<td>
-								<img src="../assets/tracklogo.svg" />
+								<img src="/assets/tracklogo.svg" />
 							</td>
 						</tr>
 					</tbody>
@@ -123,11 +123,3 @@ export default function CustomerExperience() {
 		</>
 	)
 }
-
-// <div className="boxesBoundary">
-
-// 					<div className="custbox2">
-// 						<img src="./assets/helos.svg" className="helosCSS" />
-// 						<div className="card1">helo</div>
-// 					</div>
-// 				</div>

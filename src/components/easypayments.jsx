@@ -108,7 +108,7 @@ export default function Easypayments() {
 								<button className="easypaymentbutton">Confirm</button>
 							</td>
 							<td>
-								<img src="../assets/tracklogo.svg" />
+								<img src="/assets/tracklogo.svg" />
 							</td>
 						</tr>
 					</table>
@@ -137,7 +137,7 @@ export default function Easypayments() {
 									<button className="easypaymentbutton">Confirm</button>
 								</td>
 								<td>
-									<img src="../assets/tracklogo.svg" />
+									<img src="/assets/tracklogo.svg" />
 								</td>
 							</tr>
 						</tbody>

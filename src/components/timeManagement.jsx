@@ -15,7 +15,7 @@ export default function TimeManagement() {
 				</ul>
 
 				<div className="timeManageCard">
-					<img src="./assets/timeCard1.svg" className="timeCardImage" />
+					<img src="/assets/timeCard1.svg" className="timeCardImage" />
 					<h1 className="cardHeader">John Doe</h1>
 					<p className="cardParagraph">CEO & Founder, Example</p>
 					<div>
@@ -32,7 +32,7 @@ export default function TimeManagement() {
 				</div>
 
 				<div className="timeManageCard">
-					<img src="./assets/timeCard2.svg" className="timeCardImage" />
+					<img src="/assets/timeCard2.svg" className="timeCardImage" />
 					<h1 className="cardHeader">John Doe</h1>
 					<p className="cardParagraph">CEO & Founder, Example</p>
 					<div>
@@ -49,7 +49,7 @@ export default function TimeManagement() {
 				</div>
 
 				<div className="timeManageCard">
-					<img src="./assets/timeCard3.svg" className="timeCardImage" />
+					<img src="/assets/timeCard3.svg" className="timeCardImage" />
 					<h1 className="cardHeader">John Doe</h1>
 					<p className="cardParagraph">CEO & Founder, Example</p>
 					<div>
@@ -127,7 +127,7 @@ export default function TimeManagement() {
 								</p>
 							</td>
 							<td>
-								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+								<img src="/assets/tracklogo.svg" className="trackimagecard" />
 							</td>
 						</tr>
 						<tr>
@@ -135,7 +135,7 @@ export default function TimeManagement() {
 								<b>5570</b>
 							</td>
 							<td className="timeinnercardflex">
-								<img src="./assets/timeCard1.svg" />
+								<img src="/assets/timeCard1.svg" />
 								<span>
 									<p>Elvis Moren</p>
 									<p>UX Designer</p>
@@ -162,7 +162,7 @@ export default function TimeManagement() {
 								</p>
 							</td>
 							<td>
-								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+								<img src="/assets/tracklogo.svg" className="trackimagecard" />
 							</td>
 						</tr>
 						<tr>
@@ -170,7 +170,7 @@ export default function TimeManagement() {
 								<b>5570</b>
 							</td>
 							<td className="timeinnercardflex">
-								<img src="./assets/timeCard1.svg" />
+								<img src="/assets/timeCard1.svg" />
 								<span>
 									<p>Elvis Moren</p>
 									<p>UX Designer</p>
@@ -197,7 +197,7 @@ export default function TimeManagement() {
 								</p>
 							</td>
 							<td>
-								<img src="../assets/tracklogo.svg" className="trackimagecard" />
+								<img src="/assets/tracklogo.svg" className="trackimagecard" />
 							</td>
 						</tr>
 					</tbody>

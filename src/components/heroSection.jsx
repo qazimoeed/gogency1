@@ -15,7 +15,7 @@ export default function HeroSection() {
 				<div className="heroEarth">
 					<img
 						className="earthImage"
-						src="./assets/heroEarth.svg"
+						src="/assets/heroEarth.svg"
 						alt="EarthImage"
 					/>
 				</div>

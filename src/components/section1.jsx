@@ -11,11 +11,7 @@ export default function Section1() {
 					<button className="sec1Btn">Try Now !</button>
 				</div>
 				<div className="sect1box2">
-					<img
-						src="./assets/gogencylogo.svg"
-						alt="Logo"
-						className="sect1Logo"
-					/>
+					<img src="/assets/gogencylogo.svg" alt="Logo" className="sect1Logo" />
 					<div className="sect1back">
 						<p className="sect1box1Para">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
@@ -33,7 +29,7 @@ export default function Section1() {
 							</p>
 							<button className="sec1Btn aligns">Lets Move !</button>
 						</div>
-						{/* <img src="./assets/sect1botomVector.svg" /> */}
+						<img src="/assets/sect1botomVector.svg" />
 					</div>
 				</div>
 			</div>

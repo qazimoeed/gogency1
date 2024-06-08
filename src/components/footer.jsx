@@ -1,12 +1,11 @@
 import React from "react"
-import "../src/style.css"
-
+import "../style.css"
 export default function Footer() {
 	return (
 		<>
 			<footer className="footerBoundary">
 				<section className="footerInternal">
-					<img src="./assets/gogencyDark.svg" className="footerImage" />
+					<img src="/assets/gogencyDark.svg" className="footerImage" />
 					<div className="aboutUs">
 						<div>
 							<p>Real-Time Inquiry Management</p>
@@ -30,9 +29,9 @@ export default function Footer() {
 					<div className="rightsLinks">
 						<div className="rights">© 2023 All Rights Reserved The Gogency</div>
 						<div className="socialLinks">
-							<img src="./assets/facebook.svg" />
-							<img src="./assets/teitter.svg" />
-							<img src="./assets/Insta.svg" />
+							<img src="/assets/facebook.svg" />
+							<img src="/assets/teitter.svg" />
+							<img src="/assets/Insta.svg" />
 						</div>
 					</div>
 					<div className="quicklinks">
