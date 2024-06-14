@@ -8,6 +8,7 @@ import TimeManagement from "./components/timeManagement"
 import Easypayments from "./components/easypayments"
 import Navbar from "./components/navbar"
 import Section1 from "./components/section1"
+// jfksjhdkfhsjkfhsd
 
 function App() {
 	return (

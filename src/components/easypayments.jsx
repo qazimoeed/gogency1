@@ -3,7 +3,7 @@ import React from "react"
 export default function Easypayments() {
 	return (
 		<>
-			<section className="easyPayBoun">
+			<div className="easyPayBoun">
 				<div>
 					<h1 className="firstheadeasypayment">Easy</h1>
 					<h1 className="teamPayHead">PAYMENTS</h1>
@@ -130,7 +130,7 @@ export default function Easypayments() {
 				<ul className="paymentUls2">
 					<li>All at once payment requests</li>
 				</ul>
-			</section>
+			</div>
 		</>
 	)
 }

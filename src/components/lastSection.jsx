@@ -2,7 +2,7 @@ import React from "react"
 
 export default function LastSection() {
 	return (
-		<section className="mt-[44px] ">
+		<section className="mt-[44px] max-w-[1440px] mx-auto">
 			<section className=" h-[50px] gap-[20px] py-[15px] px-[0px] pb-[18px] pl-[79px] flex">
 				<button className="btnFont h-[50px] px-[40px] py-[10px] bg-[#212121] rounded-[30px] border-0 text-[#24EA28] w-[344px]">
 					Have a Taste of Independence

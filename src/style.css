@@ -4,7 +4,9 @@ body {
 	font-family: Roboto;
 	background-color: #ffffff;
 }
-
+html::before {
+	background-color: transparent; /* or initial */
+}
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -68,6 +70,7 @@ body {
 
 .menu-toggle {
 	display: none;
+	/* / */
 }
 
 .burger-btn {
@@ -133,14 +136,14 @@ body {
 	}
 }
 /*  Hero Section */
+
 .heroVector {
 	background-image: url(/assets/heroVector.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: 0px;
 	background-position-x: 0px;
-	height: 534px;
-	width: 1290px;
+	height: 561px;
 	padding: 100px 75px 0px 75px;
 	margin-bottom: 300px;
 }
@@ -227,108 +230,134 @@ body {
 	margin-right: 10px;
 	margin-top: 0px;
 }
-/* 
-/* Mobile
-@media (max-width: 480px) {
-	.heroContainer {
-		margin: 20px;
-		padding: 40px 20px;
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+	.heroVector {
+		padding: 50px 25px 0 25px;
+		margin-bottom: 150px;
 	}
 
-	.heroHeading {
-		font-size: 32px;
+	.heroHeading,
+	.heroHeadingheropart2 {
+		font-size: 35px;
+		line-height: 37px;
 	}
-
+	.earthImage {
+		max-width: 85%;
+	}
 	.heroPara {
 		font-size: 18px;
+		line-height: 18.27px;
 	}
 
 	.heroCta {
 		flex-direction: column;
-		align-items: center;
+		align-items: stretch;
 	}
 
 	.firstBtn,
 	.secondBtn {
-		margin-bottom: 10px;
-		width: 200px;
+		width: 100%;
 	}
 }
 
-/* Tablets  
-@media (min-width: 481px) and (max-width: 768px) {
-	.heroContainer {
-		margin: 20px;
-		padding: 40px;
+/* For screens between 768px and 1199px */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.heroVector {
+		background-size: contain;
+		padding: 75px 50px 0;
+		margin-bottom: 225px;
 	}
 
-	.heroHeading {
-		font-size: 42px;
+	.earthImage {
+		max-width: 75%;
+	}
+	.heroHeading,
+	.heroHeadingheropart2 {
+		font-size: 64px;
+		line-height: 56px;
 	}
 
 	.heroPara {
 		font-size: 20px;
-	}
-
-	.heroCta {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.firstBtn,
-	.secondBtn {
-		margin-bottom: 10px;
+		line-height: 20.3px;
 	}
 }
 
-/* Laptops  
-@media (min-width: 769px) and (max-width: 1024px) {
-	.heroContainer {
-		margin: 40px;
-		padding: 80px;
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+	.heroVector {
+		background-size: contain;
+		background-position: center;
+		padding: 100px 75px 0;
+		margin-bottom: 300px;
 	}
 
-	.heroHeading {
-		font-size: 52px;
-	}
-
-	.heroPara {
-		font-size: 22px;
-	}
-}
-
-/* Large Screens  
-@media (min-width: 1025px) and (max-width: 1440px) {
-	.heroContainer {
-		margin: 40px;
-		padding: 80px;
-	}
-
-	.heroHeading {
-		font-size: 62px;
+	.heroHeading,
+	.heroHeadingheropart2 {
+		font-size: 82px;
+		line-height: 72px;
 	}
 
 	.heroPara {
 		font-size: 24px;
+		line-height: 24.36px;
 	}
 }
 
-/* 4K 2560 Screens  
-@media (min-width: 1441px) and (max-width: 2560px) {
+/* For 4K screens */
+@media (min-width: 2560px) {
 	.heroContainer {
-		margin: 100px 0px 100px 0px;
-		padding: 80px;
+		margin: auto;
+	}
+	/* .heroContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
 	}
 
-	.heroHeading {
-		font-size: 82px;
-		padding: 104px;
+	.heroVector {
+		background-size: contain;
+		background-position: center;
+		/* height: 800px;  
+		width: 1200px;
+		margin: 0 auto;
+		padding: 150px 0 0;
+	}
+
+	.heroHeading,
+	.heroHeadingheropart2 {
+		font-size: 58px;
+		line-height: 81px;
 	}
 
 	.heroPara {
-		font-size: 28px;
+		font-size: 26px;
+		line-height: 0.54px;
 	}
-} */
+
+	.heroCta {
+		margin: 42.5px 0;
+	}
+
+	.btnFont {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.firstBtn,
+	.secondBtn {
+		width: 330px;
+		height: 69px;
+		padding: 20.5px 75px;
+	}
+
+	.earthImage {
+		max-width: 100%;
+		height: auto;
+	} */
+}
 
 /* ,,,,,......,.,Section 1 .,.,.,,,,,,,,,,,. */
 
@@ -341,6 +370,7 @@ body {
 	display: flex;
 	align-items: stretch;
 	justify-content: space-evenly;
+	max-width: 1440px;
 }
 
 .firstHeadingSection1 {
@@ -418,183 +448,100 @@ body {
 	margin-right: 60px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 	.secOneCont {
 		flex-direction: column;
 		align-items: center;
-		margin: 20px;
-
-		padding: 0;
+		margin: 8px 6px;
 	}
-
-	.firstHeading,
-	.secondHeading {
-		margin-left: 0;
-		font-size: 32px;
-		line-height: 1.2;
-		width: auto;
-		height: auto;
-		text-align: center;
-	}
-
-	.secondHeading {
-		margin-top: 0;
-		margin-left: 0;
-	}
-
-	.firstPara {
-		padding-left: 0;
-		width: auto;
-		height: auto;
-		text-align: center;
-		font-size: 16px;
-		margin-bottom: 20px;
-	}
-
 	.sec1Btn {
-		margin-left: 0;
-		margin-bottom: 20px;
+		margin-left: 56px;
 	}
-
-	.sect1box2 {
-		width: 100%;
-		height: auto;
-		margin-top: 0;
-		border: none;
-		padding: 20px;
-		box-sizing: border-box;
-	}
-
-	.sect1Logo {
-		margin-left: 0;
-		margin-bottom: 20px;
-	}
-
-	.sect1back {
-		width: 100%;
-		height: auto;
-		background-size: cover;
-		background-position: center;
-		padding: 20px;
-		box-sizing: border-box;
-	}
-
-	.sect1box1Para {
-		padding: 0;
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.belowsect1 {
-		padding: 0;
-		text-align: center;
-	}
-
-	.aligns {
-		margin-right: 0;
-		margin-top: 20px;
-	}
-}
-
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-	.secOneCont {
-		flex-direction: column;
-		align-items: center;
-		margin: 20px;
-		padding: 0;
-	}
-
-	.firstHeading,
-	.secondHeading {
-		margin-left: 0;
+	.firstHeadingSection1,
+	.secondHeadingSection1 {
 		font-size: 48px;
-		line-height: 1.2;
-		width: auto;
+		line-height: 42px;
 		height: auto;
-		text-align: center;
-	}
-
-	.secondHeading {
-		margin-top: 0;
+		width: auto;
 		margin-left: 0;
+		padding-top: 0;
+		text-align: center;
 	}
 
 	.firstPara {
-		padding-left: 0;
 		width: auto;
 		height: auto;
-		text-align: center;
 		font-size: 18px;
-		margin-bottom: 20px;
-	}
-
-	.sec1Btn {
-		margin-left: 0;
-		margin-bottom: 20px;
+		line-height: 18.27px;
+		padding-left: 0;
+		text-align: center;
 	}
 
 	.sect1box2 {
 		width: 100%;
 		height: auto;
-		margin-top: 0;
-		border: 1px solid #c3c3c3;
-		padding: 20px;
-		box-sizing: border-box;
+		margin-top: 30px;
 	}
 
 	.sect1Logo {
-		margin-left: 0;
-		margin-bottom: 20px;
+		width: 120px;
+		height: 80.4px;
+		margin: 10px auto;
+		display: block;
 	}
 
 	.sect1back {
 		width: 100%;
 		height: auto;
 		background-size: cover;
-		background-position: center;
-		padding: 20px;
-		box-sizing: border-box;
 	}
 
 	.sect1box1Para {
-		padding: 0;
+		padding: 20px;
 		margin-top: 0;
-		text-align: center;
 	}
 
 	.belowsect1 {
-		padding: 0;
-		text-align: center;
+		padding: 16px;
 	}
 
 	.aligns {
-		margin-right: 0;
-		margin-top: 20px;
+		margin: 20px auto 0;
+	}
+
+	.sect1box2lowerimage {
+		max-width: 100%;
+		height: auto;
 	}
 }
 
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-	.firstHeading {
-		font-size: 72px;
-		line-height: 1.2;
+@media (min-width: 768px) and (max-width: 1199px) {
+	.secOneCont {
+		flex-direction: column;
+		padding: 6px 86px;
+		margin: auto;
 	}
-
-	.secondHeading {
-		font-size: 72px;
-		line-height: 1.2;
+	.firstHeadingSection1,
+	.secondHeadingSection1 {
+		font-size: 64px;
+		line-height: 56px;
 	}
 
 	.firstPara {
-		width: auto;
+		font-size: 20px;
+		line-height: 20.3px;
+	}
+}
+
+@media (min-width: 2560px) {
+	.secOneCont {
+		margin: auto;
 	}
 }
 
 /* 
 
 Experice Section ..........,,,,,,,,,,,,,,,.......... 
-
 
 */
 .firstHeadingCustomer {
@@ -902,6 +849,213 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 .alignment {
 	padding-top: 6px;
 }
+
+/* Large Scren */
+@media (min-width: 1921px) {
+	.customerboundaryforresponsive {
+		max-width: 1440px;
+		margin: auto;
+	}
+	/* section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+	.firstHeadingCustomer {
+		width: 506px;
+		height: 91px;
+		font-size: 103px;
+		font-weight: 900;
+		line-height: 90.64px;
+		text-align: left;
+		margin: 0px 0px 0px 82px;
+		margin-bottom: 0px;
+	}
+	.secondHeadingCustomer {
+		font-size: 96px;
+		margin: 1px 35px 23px 135px;
+		font-weight: 200;
+		line-height: 78.64px;
+	}
+	.helo,
+	.boxesBoundary,
+	.customerExperiencrBottomBoundary {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: fit-content;
+	} */
+}
+
+/* Small Devices (Mobile) */
+@media only screen and (max-width: 600px) {
+	.firstHeadingCustomer,
+	.secondHeadingCustomer {
+		width: 65%;
+	}
+	.firstHeadingCustomer {
+		font-size: 42px;
+		padding-bottom: 0px;
+		margin-left: 40px;
+	}
+	.secondHeadingCustomer {
+		font-size: 35px;
+		margin-left: 80px;
+		margin-bottom: 0px;
+	}
+	.custBtn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.boxesBoundary {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.custbox1 {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.uls {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.card2Btn1 {
+		margin-left: 22px;
+		margin-bottom: 20px;
+	}
+	.card1 {
+		width: 80%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+	}
+	.card2 {
+		width: 62%;
+		margin-left: 12%;
+		margin-top: 5%;
+		padding-bottom: 30px;
+		height: auto;
+	}
+	.customerExperiencrBottomBoundary {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: 100%;
+		margin-bottom: 10px; /* Add some space between the cards */
+		display: block;
+	}
+
+	.customerExperiencrBottomCard1 tr,
+	.customerExperiencrBottomCard2 tr {
+		display: block;
+		width: 100%;
+	}
+
+	.customerExperiencrBottomCard1 td,
+	.customerExperiencrBottomCard2 td {
+		display: block;
+		width: 100%;
+		text-align: center; /* Adjust as necessary */
+		padding: 10px 0; /* Add some padding for better spacing */
+	}
+	.alignment,
+	.alignment {
+		transform: rotate(90deg);
+	}
+	.helo {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+
+/* Medium Devices (Tablet) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+	.firstHeadingCustomer,
+	.secondHeadingCustomer {
+		font-size: 60px;
+		width: fit-content;
+	}
+
+	.custBtn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.boxesBoundary {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.custbox1 {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.uls {
+		font-size: 18px;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.card1 {
+		width: 50%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+	}
+
+	.card2 {
+		width: 50%;
+		margin-left: 195px;
+		padding-left: 20px;
+		margin-top: 22px;
+		padding-right: 20px;
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.customerExperiencrBottomBoundary {
+		width: 95%;
+		margin-left: 20px;
+		margin-top: 22px;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: 100%;
+	}
+
+	.helo {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+
 /* 
 
 
@@ -1084,7 +1238,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 
 /* .........//////////////////,,,,,,,,,,,,,,,,,,/////////////////track Inquireis */
-
+.trackerBoundaryforResponsive {
+	max-width: 1440px;
+}
 .secheadtrack {
 	font-size: 96px;
 	font-weight: 200;
@@ -1163,6 +1319,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 .detailsInquiryBoundary {
 	background-image: url("/assets/detailsbackground.svg");
 	padding: 0px 0px;
+	max-width: 1440px;
 }
 .detailsInquiry {
 	display: flex;
@@ -1707,166 +1864,124 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	background-color: white;
 }
 
-/* Mobile Screens */
-@media (max-width: 480px) {
-	.trackBoundary {
-		margin-left: 0;
+/* For screens smaller than 768px (e.g., mobile devices) */
+
+@media (max-width: 767px) {
+	.firstheadtrack,
+	.secheadtrack,
+	.ulsTrack,
+	.trackBoundary,
+	.detailsInquiryBoundary,
+	.suggestionCoverBoundary {
+		margin-left: 16px;
+		margin-right: 16px;
 	}
 
 	.innertrack1 {
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-left: 0;
+		flex-direction: column;
+		gap: 10px;
+		padding: 10px;
+		align-items: center;
+	}
+
+	.innertrack1 h3,
+	.innertrack1 p {
+		text-align: center;
+	}
+
+	.detailsInquiry {
+		flex-direction: column;
+		padding: 16px;
+		width: auto;
+	}
+
+	.firstTrackercard,
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 100%;
+	}
+
+	.suggestionCard1Mid,
+	.suggestionBottomFlex {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.suggestionbottoninfo {
+		flex-direction: row;
+		gap: 10px;
+		padding-top: 10px;
+	}
+
+	.suggestionBottom {
+		padding-left: 0;
+		text-align: center;
+	}
+}
+
+/* For screens between 768px and 1199px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.innertrack1 {
+		gap: 20px;
 		padding: 10px;
 	}
 
 	.detailsInquiry {
 		flex-direction: column;
-		align-items: center;
+		padding: 32px;
 		width: auto;
-		padding: 20px;
 	}
 
 	.firstTrackercard {
 		width: 100%;
 	}
 
-	.outerSuggesionBoundary {
-		flex-direction: column;
-		align-items: center;
-		padding-top: 10px;
-	}
-
-	.image-text {
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-bottom: 10px;
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 80%;
 	}
 
 	.belowSuggestionBoundary {
-		width: 100%;
-		margin: 20px 0;
-		padding: 20px;
+		width: auto;
+		margin: 30px;
 		flex-direction: column;
 		align-items: center;
 	}
-
-	.suggestionCard1 {
-		width: 100%;
-		margin-top: 10px;
-	}
 }
 
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-	.innertrack1 {
-		margin-left: 20px;
+/* For screens larger than or equal to 1200px (e.g., desktops) */
+@media (min-width: 1200px) {
+	.trackerBoundaryforResponsive {
+		margin: auto;
 	}
-
-	.detailsInquiry {
-		padding: 40px;
-	}
-
-	.outerSuggesionBoundary {
-		padding-top: 15px;
-	}
-
 	.belowSuggestionBoundary {
-		width: 90%;
-		margin: 30px auto;
-		padding: 30px;
+		width: 1080px;
+		flex-direction: row;
+		margin: 30px auto 0;
+		height: auto;
+	}
+
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 480px;
+		height: 333px;
+	}
+	.detailsInquiryBoundary {
+		margin: auto;
 	}
 }
 
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-	.detailsInquiry {
-		width: 90%;
-		padding: 40px;
-	}
-
-	.belowSuggestionBoundary {
-		width: 90%;
-		margin: 30px auto;
-	}
-}
-
-/* Large Screens */
-@media (min-width: 1025px) and (max-width: 1440px) {
-	/* No changes needed for this screen size */
-}
-
-/* 4K 2560 Screens */
-@media (min-width: 1441px) and (max-width: 2560px) {
-	.firstheadtrack {
-		font-size: 120px;
-	}
-
-	.secheadtrack {
-		font-size: 120px;
-	}
-
-	.innertrack1 {
-		font-size: 18px;
-	}
-
-	.firstTrackercard {
-		width: 600px;
-		height: 300px;
-	}
-
-	.trackerImage {
-		width: 150px;
-		height: 150px;
-	}
-
-	.trackercardinfotext {
-		font-size: 16px;
-	}
-
-	.secondCardtrackFlex {
-		font-size: 18px;
-	}
-
-	.secondTrackCardRed {
-		font-size: 40px;
-	}
-
-	.secondTracktextTime {
-		font-size: 16px;
-	}
-
-	.suggestionCard1 {
-		width: 600px;
-	}
-
-	.suggestionCard1Mid {
-		font-size: 18px;
-	}
-
-	.suggestiontextTime {
-		font-size: 16px;
-	}
-
-	.suggestionCenterPara {
-		font-size: 18px;
-	}
-}
-
-/* 
-
-
-
+/*
 /////////////////........................,,,,,,,,,,,,,,,,,,,team and management 
-
-
-
-
 */
+.timeManagementBoundary {
+	max-width: 1440px;
+	margin: auto;
+}
 
 /* //// Responsive teamand management */
 /* Small screens (up to 576px) */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
 	.firstheadtrack {
 		width: 90%;
 		margin-left: 5%;
@@ -1901,7 +2016,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 
 /* Medium screens (577px to 992px) */
-@media (min-width: 577px) and (max-width: 992px) {
+/* @media (min-width: 577px) and (max-width: 992px) {
 	.firstheadeasypayment {
 		width: 80%;
 		margin-left: 10%;
@@ -1931,9 +2046,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.easyPaymentCardBottomBoundary table {
 		width: 100%;
 	}
-}
+} */
 
-/* 4K large screens (2560px and above) */
+/* 4K large screens (2560px and above)  
 @media (min-width: 2560px) {
 	.firstheadeasypayment {
 		width: 1000px;
@@ -1963,7 +2078,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.easyPaymentCardBottomBoundary table {
 		width: 100%;
 	}
-}
+} */
 
 /*
 
@@ -1997,6 +2112,8 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	background-image: url("/assets/custom.svg");
 	padding: 20px;
 	background-position-y: -230px;
+	max-width: 1388px;
+	margin: auto;
 }
 
 .firstheadeasypayment {
