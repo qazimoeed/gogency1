@@ -125,7 +125,7 @@ body {
 }
 @media (min-width: 1200px) {
 	.navbar {
-		padding: 15px 75px;
+		padding: 14px 75px;
 	}
 
 	.tabs {
@@ -139,7 +139,8 @@ body {
 	background-size: cover;
 	background-position-y: 0px;
 	background-position-x: 0px;
-	height: 530px;
+	height: 534px;
+	width: 1290px;
 	padding: 100px 75px 0px 75px;
 	margin-bottom: 300px;
 }
@@ -163,7 +164,7 @@ body {
 	margin-bottom: 0px;
 	font-family: Roboto;
 	font-size: 82px;
-	margin-top: 0px;
+	margin-top: 1px;
 	margin-right: 4px;
 	font-weight: 900;
 	line-height: 72px;
@@ -332,7 +333,7 @@ body {
 /* ,,,,,......,.,Section 1 .,.,.,,,,,,,,,,,. */
 
 .section1Container {
-	margin: 102.4px 31px 60px 0px;
+	margin: 99.4px 31px 60px 0px;
 	padding: 100px 0px 0px 0px;
 }
 
@@ -979,52 +980,6 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	}
 } */
 /* //Footer CSS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
-.footerBoundary {
-	width: 1173px;
-	height: auto;
-	background-color: #212121;
-	padding: 80px;
-	margin-left: 0px;
-}
-
-.footerImage {
-	height: 51px;
-}
-.aboutUs {
-	display: flex;
-	width: inherit;
-	height: 151px;
-	color: #ffffff;
-	justify-content: space-between;
-}
-.rightsLinks {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 80px;
-	color: white;
-}
-.socialLinks {
-	display: flex;
-	gap: 50px;
-	flex-direction: row;
-}
-
-.footerTabs {
-	list-style: none;
-	display: flex;
-	width: 900px;
-	justify-content: space-between;
-	padding: 1px 0px 1px 0px;
-	font-size: 19px;
-	font-weight: 900;
-	gap: 70px;
-	margin-top: 120px;
-}
-
-.footerTabs > li > a {
-	color: #ffffff;
-	text-decoration: none;
-}
 
 /* Mobile Screens */
 @media (max-width: 480px) {
