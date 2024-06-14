@@ -4,7 +4,8 @@ export default function HeroSection() {
 	return (
 		<div className="heroContainer">
 			<div className="heroVector">
-				<h1 className="heroHeading">EMPOWERING YOUR ONLINE TRAVEL BUSINESS</h1>
+				<h1 className="heroHeading">EMPOWERING YOUR ONLINE</h1>
+				<h1 className="heroHeadingheropart2"> TRAVEL BUSINESS</h1>
 				<p className="heroPara">
 					The only portal your travel agency ever needs
 				</p>

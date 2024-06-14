@@ -8,7 +8,7 @@ export default function Section1() {
 					<h1 className="firstHeadingSection1">One Click</h1>
 					<h1 className="secondHeadingSection1">FILL WEBSITE</h1>
 					<p className="firstPara">Click on Create website</p>
-					<button className="sec1Btn">Try Now !</button>
+					<button className="sec1Btn">Try Now!</button>
 				</div>
 				<div className="sect1box2">
 					<img src="/assets/gogencylogo.svg" alt="Logo" className="sect1Logo" />
@@ -29,7 +29,10 @@ export default function Section1() {
 							</p>
 							<button className="sec1Btn aligns">Lets Move !</button>
 						</div>
-						<img src="/assets/sect1botomVector.svg" />
+						<img
+							src="/assets/sect1botomVector.svg"
+							className="sect1box2lowerimage"
+						/>
 					</div>
 				</div>
 			</div>

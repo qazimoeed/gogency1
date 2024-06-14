@@ -1,4 +1,6 @@
 body {
+	padding: 0px;
+	margin: 0px;
 	font-family: Roboto;
 	background-color: #ffffff;
 }
@@ -13,25 +15,26 @@ body {
 
 .logo img {
 	width: 200px;
+	padding-top: 6px;
+	padding-left: 4px;
 	height: 50.55px;
 }
 
 .tabs {
 	list-style: none;
 	display: flex;
-	gap: 10px;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 19.2px;
 	text-align: left;
 	width: 400px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 1px 0px 1px 0px;
 }
 
 .tabs li {
 	line-height: 19.2px;
-	text-align: left;
+	text-align: center;
 }
 
 .tabs a {
@@ -41,12 +44,18 @@ body {
 }
 
 .button {
+	width: 264px;
+	height: 50px;
+	padding: 15px 50px 15px 50px;
+	margin-right: 7px;
 	background-color: #24ea28;
 	color: black;
-	padding: 10px 20px;
 	border: none;
+	border: 1px solid #24ea28;
 	border-radius: 5px;
 	cursor: pointer;
+	margin-top: 1px;
+	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 20px;
@@ -123,53 +132,60 @@ body {
 		width: 600px;
 	}
 }
-
-/*                  
-
-
-Hero Section 
-
-
-
-*/
+/*  Hero Section */
 .heroVector {
 	background-image: url(/assets/heroVector.svg);
 	background-repeat: no-repeat;
-	background-size: inherit;
-	height: 500px;
-	padding: 146px 75px 0px 75px;
+	background-size: cover;
+	background-position-y: 0px;
+	background-position-x: 0px;
+	height: 530px;
+	padding: 100px 75px 0px 75px;
 	margin-bottom: 300px;
-	background-position: center;
 }
 
 .heroContainer {
-	padding: 70px 0px;
+	padding: 55px 0px;
 	text-align: center;
 }
 
 .heroHeading {
 	margin-bottom: 0px;
-	height: auto;
 	font-family: Roboto;
 	font-size: 82px;
+	margin-top: 7.5px;
+	margin-right: 20px;
 	font-weight: 900;
-	line-height: 72.16px;
-	margin-top: -28px;
+	line-height: 72px;
+	text-align: center;
+}
+.heroHeadingheropart2 {
+	margin-bottom: 0px;
+	font-family: Roboto;
+	font-size: 82px;
+	margin-top: 0px;
+	margin-right: 4px;
+	font-weight: 900;
+	line-height: 72px;
 	text-align: center;
 }
 
 .heroPara {
+	font-family: Roboto;
 	font-size: 24px;
+	margin-top: 35px;
+	margin-left: -10px;
 	font-weight: 400;
-	line-height: 1.4;
+	line-height: 24.36px;
+	text-align: center;
 }
 
 .heroCta {
 	width: auto;
 	height: auto;
 	align-items: center;
-	margin: 29px 0px;
-	gap: 30px;
+	margin: 41px 0px;
+	gap: 20px;
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -177,19 +193,21 @@ Hero Section
 }
 
 .btnFont {
+	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 20px;
 	text-align: center;
-	color: #24ea28;
 }
 
 .firstBtn {
 	width: 246px;
 	height: 50px;
+	padding: 15px, 50px, 15px, 50px;
 	background-color: #212121;
 	border-radius: 30px;
 	border: none;
+	color: #24ea28;
 }
 
 .secondBtn {
@@ -205,7 +223,8 @@ Hero Section
 .earthImage {
 	max-width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-right: 10px;
+	margin-top: 0px;
 }
 /* 
 /* Mobile
@@ -313,8 +332,8 @@ Hero Section
 /* ,,,,,......,.,Section 1 .,.,.,,,,,,,,,,,. */
 
 .section1Container {
-	margin: 40px 0px 0px 0px;
-	padding: 80px 0px 0px 0px;
+	margin: 102.4px 31px 60px 0px;
+	padding: 100px 0px 0px 0px;
 }
 
 .secOneCont {
@@ -345,17 +364,17 @@ Hero Section
 }
 
 .firstPara {
-	width: 629px;
-	height: 116px;
+	width: 400px;
+	height: 98px;
 	font-size: 24px;
 	font-weight: 300;
-	line-height: 24.36px;
-	text-align: left;
+	line-height: 10.36px;
+	padding-left: 2px;
 }
 .sec1Btn {
-	width: 200px;
+	width: 173px;
 	height: 50px;
-	padding: 15px 50px 15px 50px;
+	padding: 15px 29px 15px 28px;
 	background-color: #212121;
 	border-radius: 30px;
 	font-size: 18px;
@@ -366,18 +385,20 @@ Hero Section
 }
 .sect1box2 {
 	width: 469px;
-	height: 752px;
+	margin-top: 18px;
+	height: 750px;
 	border-radius: 20px;
 	border: 1px solid #c3c3c3;
 }
 .sect1Logo {
-	width: 100px;
-	height: 50px;
-	margin-top: 20px;
+	width: 150px;
+	height: 100.5px;
+	margin-top: 10px;
 	margin-left: 20px;
 }
 .sect1back {
 	background-image: url("/assets/sect1TopVector.svg");
+	margin-top: 1px;
 	width: 469px;
 	height: 264px;
 }
@@ -389,10 +410,10 @@ Hero Section
 }
 .belowsect1 {
 	text-align: center;
-	padding: 40px;
+	padding: 16px 20px;
 }
 .aligns {
-	margin-top: 30px;
+	margin-top: 29.4px;
 	margin-right: 60px;
 }
 
@@ -582,55 +603,59 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-weight: 900;
 	line-height: 90.64px;
 	text-align: left;
-	margin: 55px 0px 0px 82px;
+	margin: 0px 0px 0px 82px;
 	margin-bottom: 0px;
 }
 .secondHeadingCustomer {
-	font-size: 103px;
+	font-size: 96px;
+	margin: 1px 35px 23px 135px;
 	font-weight: 200;
-	line-height: 90.64px;
-	text-align: left;
-	height: 91px;
-	margin: 0px 0px 40px 130px;
+	line-height: 78.64px;
 }
 
 .custBtn {
 	color: black;
 	border: 0px;
-	width: 260px;
-	height: 50px;
-	padding-left: 20px;
-	border-radius: 15px;
+	width: 250px;
+	height: 40px;
+	padding-left: 6.5px;
+	border-radius: 10px;
 	display: flex;
 	gap: 15px;
+	margin-left: 21px;
 	background-color: #bebfbe;
-	justify-content: left;
 	align-items: center;
 	font-family: Montserrat;
 	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
 }
 .boxesBoundary {
 	display: flex;
-	padding-top: 0px;
-	justify-content: space-around;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	margin-top: 127px;
+	height: 263px;
 }
 .custbox1 {
 	display: flex;
-	align-items: center;
-	gap: 30px;
-	width: 600px;
-	padding-left: 0px;
-	padding-top: 110px;
+	align-items: flex-start;
+	margin-left: -21px;
+	width: 730px;
+	padding-left: 46px;
+	justify-content: space-between;
 }
+
 .uls {
-	margin-left: 100px;
-	font-size: 24px;
-	margin-top: 60px;
-	width: 450px;
+	font-size: 20px;
+	margin-top: 90px;
+	width: 230px;
 	font-weight: 500;
 	line-height: 28.13px;
 }
 .helos {
+	margin-top: 24px;
+	margin-left: 0px;
 	border: 2px solid;
 	border-image-source: linear-gradient(
 		276.97deg,
@@ -641,53 +666,122 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	);
 }
 .cardLogo1 {
-	padding-top: 35px;
+	padding-top: 0px;
+	padding-left: 56px;
+	padding-right: 67px;
+}
+.cardLogo2 {
+	padding-top: 0px;
+	height: 132px;
 }
 .helo {
 	width: 355px;
+	margin-right: 274px;
+	float: right;
+	margin-top: 48px;
 	height: 54px;
 }
 .card1 {
-	width: 215px;
-	height: 320px;
-	padding: 32px;
-	margin-left: -186px;
-	margin-top: -28px;
+	margin-top: -23px;
+	height: 255px;
+	padding-top: 35px;
+	background-color: blue;
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 0px 4px 4px 0px #00000040;
 }
-
+.hr {
+	margin-top: 35px;
+}
 .card2 {
-	width: 215px;
-	height: 320px;
-	margin-left: 186px;
-	padding: 30px;
+	display: flex;
+	height: 596px;
+	padding-left: 27px;
+	padding-right: 20px;
+	padding-top: 90px;
+	gap: 14px;
 	text-align: center;
 	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #00000040;
+	background-color: #ffffff80;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 119px;
+	align-items: stretch;
+	box-shadow: -1px 4px 4px 0px #00000040;
 }
 .card1Heading {
 	font-size: 16px;
 	font-weight: 700;
+	margin-top: 4px;
+	margin-left: -11px;
 	line-height: 20px;
 	text-align: center;
 }
+.card2Heading {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 36px;
+	color: #212121;
+	line-height: 20px;
+	text-align: left;
+	padding-bottom: 2px;
+	border-bottom: 3px solid gray;
+}
+.card2Para {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	margin-top: 0px;
+	color: #8d8d8d;
+	border-bottom: 3px solid gray;
+}
 .card1Para {
 	font-size: 12px;
+	margin-left: -13px;
+	padding: 0px;
+	margin-top: -12px;
 	font-weight: 300;
+	margin-bottom: 0px;
 	line-height: 12px;
 	text-align: center;
 }
+
 .card1Para2 {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 20px;
 	text-align: center;
-	margin-top: 34px;
+	margin-top: 18px;
+	margin-left: 0px;
 	display: flex;
 	gap: 10px;
 	justify-content: center;
+}
+
+.card2Para2 {
+	padding-bottom: 7px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 3px;
+	text-align: left;
+	border-bottom: 3px solid gray;
+	margin-left: 0px;
+}
+.coverforcard2info {
+	margin-top: 14px;
+}
+.card2Para1 {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-bottom: 2px;
+	color: #212121;
+	text-align: left;
+	border-bottom: 3px solid gray;
 }
 .card1Para1 {
 	font-size: 12px;
@@ -698,68 +792,124 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	margin-top: 8px;
 	display: flex;
 	justify-content: center;
+	align-items: stretch;
 }
 .cards {
 	width: 215px;
 	display: flex;
-	height: 283px;
+	justify-content: center;
 }
-
-/* LastSection ,,,,,,,,,,,,,,,...................,,,,,,,,,,,,,,,,*/
-.lastSectionBoundary {
-	height: 875.5px;
-	background-image: url("/assets/rectanglegreen.svg");
-}
-
-.footerCTA {
-	height: 50px;
-	gap: 40px;
-	padding: 15px 74px 15px 74px;
+.statusActive {
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
 }
-
-.initialBtn {
-	height: 50px;
-	padding: 10px 40px 10px 40px;
-	background-color: #212121;
+.activeBtn {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+}
+.statusBtn {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+}
+.card2Btn1 {
+	width: 116px;
+	height: 40px;
+	margin-right: 30px;
+	padding: 10px 30px 10px 30px;
 	border-radius: 30px;
+	background-color: #ffffff;
+	border: 1px solid #212121;
+}
+.card2Btn2 {
+	width: 116px;
+	height: 40px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 30px;
+	background-color: #212121;
+	color: #ffffff;
 	border: none;
 }
 
-.lastSectionFlex {
-	display: flex;
-	margin-top: 20px;
-}
-.greenImage {
-	height: 791px;
-}
-.lastbox1 {
-	padding: 138px 74px 20px 74px;
+.customerExperiencrBottomBoundary {
+	width: 830px;
+	margin-left: 163px;
+	margin-top: 74px;
 }
 
-.lastsecheading {
-	font-size: 50px;
-	font-weight: 900;
-	line-height: 56.32px;
-	text-align: left;
-}
-.lastSectionPara {
-	font-size: 24px;
+.customerExperiencrBottomCard1 {
+	width: 816px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 10px;
+	font-family: Montserrat;
+	font-size: 12px;
 	font-weight: 400;
-	line-height: 24.36px;
-	text-align: left;
+	line-height: 20px;
+	text-align: center;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	margin-bottom: 10px;
 }
-.figures {
-	display: flex;
-	justify-content: space-around;
-}
-.figures > div > h1 {
-	font-size: 60px;
-	font-weight: 700;
-	margin: 60px 0px 15px 0px;
-	line-height: 56.32px;
+.customerExperiencrBottomCard2 {
+	width: 816px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 10px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	margin-bottom: 10px;
 }
 
+.customerExperienceCardvalue1 {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	line-height: 20px;
+	text-align: center;
+}
+.customerExperienceCardvalue2 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 12px;
+	text-align: center;
+	color: #8d8d8d;
+	margin-bottom: 0px;
+}
+.customerExperiencecard1Para2 {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 18px;
+	margin-left: 0px;
+	display: flex;
+	margin-bottom: 0px;
+	gap: 10px;
+	justify-content: center;
+}
+.alignment {
+	padding-top: 6px;
+}
+/* 
+
+
+
+
+ */
+
+/* LastSection ,,,,,,,,,,,,,,,...................,,,,,,,,,,,,,,,,*/
+/* 
 @media (max-width: 767px) {
 	.lastSectionBoundary {
 		height: auto;
@@ -827,7 +977,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.lastSectionBoundary {
 		height: 875.5px;
 	}
-}
+} */
 /* //Footer CSS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 .footerBoundary {
 	width: 1173px;
@@ -952,6 +1102,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 } */
 
 /* 4K 2560 Screens 
+
 @media (min-width: 1441px) and (max-width: 2560px) {
 	.footerBoundary {
 		width: 94%;
@@ -978,70 +1129,104 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 
 /* .........//////////////////,,,,,,,,,,,,,,,,,,/////////////////track Inquireis */
+
 .secheadtrack {
-	font-size: 103px;
+	font-size: 96px;
 	font-weight: 200;
 	line-height: 90.64px;
 	text-align: left;
-	height: 91px;
-	margin-left: 144px;
-	margin-top: 0px;
+	margin: 0px 0px 0px 128px;
 }
 .firstheadtrack {
-	width: 600px;
+	width: 506px;
 	height: 91px;
-	margin-left: 80px;
+	font-size: 103px;
 	font-weight: 900;
 	line-height: 90.64px;
 	text-align: left;
-	margin-bottom: 29px;
+	margin: 256px 0px 6px 76px;
+}
+
+.ulsTrack {
+	margin-left: 76px;
+	margin-top: 23px;
+	width: 316px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.13px;
+	text-align: left;
 }
 
 .trackBoundary {
 	display: flex;
+	margin-left: 180px;
 	flex-direction: column;
 }
 
 .innertrack1 {
 	display: flex;
-	gap: 35px;
+	background: #ffffff50;
+	gap: 78.5px;
 	text-align: center;
 	border-radius: 20px;
 	width: fit-content;
 	flex-direction: row;
 	box-shadow: 0px 4px 4px 0px #00000040;
-	padding: 10px 20px 10px 20px;
-	margin-left: 84px;
-	margin-bottom: 20px;
+	padding: 7.5px 22px 13px 20px;
+	margin-bottom: 6px;
 	align-items: center;
+}
+.innertrack1 h3,
+.innertrack1 p {
+	margin: 0;
+	text-align: left;
+}
+
+.innertrack1 h3 {
+	font-family: Roboto;
+	font-size: 12px;
+	margin-left: 2px;
+	font-weight: 700;
+	line-height: 12px;
+	margin-bottom: 2px;
+	color: #212121;
+}
+.innertrack1 p {
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 12px;
+	color: #8d8d8dd6;
 }
 
 .trackimagecard {
-	width: 25.08px;
-	height: 25.08px;
+	width: 24.08px;
+	padding-top: 1.9px;
+	height: 24.48px;
 }
 .detailsInquiryBoundary {
-	background-image: url("/assets/heroVector.svg");
+	background-image: url("/assets/detailsbackground.svg");
 	padding: 0px 0px;
-	margin-bottom: 80px;
 }
 .detailsInquiry {
 	display: flex;
 	gap: 30px;
-	width: 1080px;
-	padding: 56px 0px 15px 135px;
+	width: 1077px;
+	padding: 32px 0px 15px 181px;
 }
 .firstTrackercard {
-	width: 500px;
+	width: 474px;
 	background-color: #ffffff;
-	height: 257px;
-	padding: 25px;
+	height: 228px;
+	padding: 5px 25px 25px 25px;
 	border-radius: 10px;
 	box-shadow: 0px 4px 4px 0px #00000040;
 }
 .trackerFlex {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 17px;
 }
 .trackerImage {
 	border-radius: 50%;
@@ -1049,44 +1234,132 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	height: 122px;
 }
 .trackercardInfo {
-	width: 276.5px;
-	height: 121px;
-	margin-left: 0px;
-}
-.trackercardinfotext {
-	font-family: Montserrat;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 20px;
+	width: 279.5px;
 	text-align: left;
+	max-height: 121px;
+	margin-left: 0px;
+	margin-top: 2px;
+}
+.trackercardInfo > h3 {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 3px;
+	line-height: 20px;
+	margin: 0px;
+	color: #393939;
+}
+.trackercardInfo > p {
+	font-family: Montserrat;
+	font-size: 11.7px;
+	font-weight: 400;
+	width: 106px;
+	line-height: 19.5px;
+	color: #393939;
+	padding-top: 0.8px;
+	margin-top: 3.3px;
+	margin-bottom: 0px;
+}
+.imageinp {
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12.19px;
+	padding-left: 6px;
+}
+
+.innercardinfolefttop {
+	display: flex;
+	gap: 4px;
+	justify-content: flex-start;
+	align-items: stretch;
 }
 .innertrackercardinfo {
 	display: flex;
-	gap: 15px;
+	gap: 5.5px;
 	justify-content: flex-start;
-	margin-top: -14px;
 	align-items: stretch;
+}
+.innertrackercardinfo4 {
+	display: flex;
+	gap: 9.5px;
+	margin-right: 1px;
+	margin-top: -2px;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.innertrackercardinfo3 {
+	display: flex;
+	gap: 3.5px;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding-top: 0px;
+}
+.innertrackerimage {
+	height: 12px;
+	width: 12px;
+}
+.innertrackercardinfo2 {
+	display: flex;
+	gap: 7.5px;
+	margin-top: -1px;
+	align-items: center;
 }
 .lowertrackerCard {
 	display: flex;
 	gap: 24px;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 72px;
+	margin-top: 27px;
 }
+.lowertrackcardbuttons {
+	width: 224.75px;
+	height: 64px;
+	padding: 0px 12px;
+	border-radius: 2px;
+	background-color: #e3f5ff;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+.lowertrackcardbuttons > p {
+	margin: 11px 0px 0px 0px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
 .rightAlign {
-	text-align: -webkit-right;
+	text-align: right;
+}
+.secondCardRightSide {
+	margin-right: 24px;
+}
+.firstcardbottomright {
+	text-align: right;
+}
+.firstcardbottomright > .secondTrackText {
+	height: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12.19px;
+	margin-bottom: 7px;
+	margin-top: 4px;
 }
 .secondCardTop {
 	display: flex;
 	justify-content: space-between;
-
 	align-items: center;
+	margin-top: 10px;
 }
 .secondcardtopinfo {
 	display: flex;
-	gap: 10px;
-	align-items: center;
+	gap: 7px;
+	margin-bottom: 0px;
+	align-items: stretch;
 }
 .secondcardtopinfo > p > b {
 	font-family: Montserrat;
@@ -1105,19 +1378,74 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 .secondCardtrackFlex {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 10px;
+	margin-top: 3px;
 }
 .secondTrackText {
-	width: 28px;
-	height: 12px;
-	font-size: 10px;
+	height: 0px;
+	font-size: 12px;
 	font-weight: 600;
 	line-height: 12.19px;
+	margin-bottom: 9px;
+	margin-top: 10px;
 }
+.secondTrackTextRightSide1 {
+	height: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12.19px;
+	margin-bottom: 9px;
+	margin-top: 4px;
+}
+.secondTrackTextRightSide2 {
+	height: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12.19px;
+	margin-bottom: 10px;
+	margin-top: 17px;
+}
+.secondTrackTextTimeBottomRight {
+	height: 15px;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14.63px;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+}
+.secondCardTrackTextLeft {
+	height: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12.19px;
+	margin-bottom: 9px;
+	margin-top: 8px;
+}
+.firstTrackTextrighttop {
+	height: 0px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12.19px;
+	margin-bottom: 9px;
+	margin-top: 4px;
+}
+.innerbottomflex {
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
 .rightAlignFlex {
-	padding-left: 30px;
+	float: right;
 }
 .secondTrackCardRed {
+	font-family: Montserrat;
+	font-size: 33px;
+	font-weight: 300;
+	line-height: 39.01px;
+	margin: 10px 0px 1px -2px;
+	color: #e5352e;
+}
+.rightsecondTrackCardRed {
 	font-family: Montserrat;
 	font-size: 32px;
 	font-weight: 300;
@@ -1126,17 +1454,48 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	color: #e5352e;
 }
 .secondTracktextTime {
+	height: 15px;
+	font-family: Montserrat;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 14.63px;
-	width: 105px;
-	height: 15px;
+	text-align: left;
+	margin: 2px 0px 1px 0px;
 }
-
+.secondTracktextTime2 {
+	height: 15px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 13.63px;
+	margin: 1px 3px 0px 0px;
+}
+.secondTracktextTime3 {
+	height: 15px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 13.63px;
+	margin: 1px 3px 0px 0px;
+}
+.suggestioncard1leftalign {
+	padding-left: 25px;
+	padding-top: 0px;
+}
+.trackercardinfotext {
+	margin: 0px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.63px;
+}
 .secondCardTrackerLowerFlex {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 48px;
+	padding-top: 1px;
+	padding-left: 1px;
 }
 .lowercardTrackerImage {
 	width: 14.06px;
@@ -1145,23 +1504,42 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 .lowerlefttrackerCard {
 	display: flex;
 	justify-content: space-between;
-	gap: 8px;
+	gap: 6px;
 	align-items: center;
 }
-.secondCardImageText img,
-.secondCardImageText span {
+
+.secondCardImageText {
 	display: inline-block;
 	padding-right: 10px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
 }
 .secondCardSideImage {
 	display: inline-flex;
-	gap: 20px;
+	gap: 47px;
+	padding-top: 0px;
+	align-items: stretch;
 }
 .ulHeader {
-	height: 33px;
-	margin-left: 50px;
+	margin-top: 24px;
+	margin-left: 82px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.13px;
+	margin-bottom: 0px;
 }
-
+.ulHeader2 {
+	margin-top: 21px;
+	margin-left: 82px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.13px;
+	margin-bottom: 0px;
+}
 /* 
 
 
@@ -1171,31 +1549,46 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 
  */
 
+.suggestionCoverBoundary {
+	margin: 7px 59px;
+}
 .outerSuggesionBoundary {
 	display: flex;
-	padding-top: 25px;
-	justify-content: space-around;
+	padding-top: 23px;
+	justify-content: space-evenly;
 }
 
 .image-text {
-	display: -webkit-inline-box;
+	display: flex;
 	background-color: white;
+	width: 947px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #acb1c6;
+	justify-content: flex-start;
 }
+
 .suggestions {
 	color: #acb1c6;
-	gap: 5px;
+	gap: 0px;
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: center;
 	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 700;
-	border-left: 2px solid #acb1c6;
-	padding: 5px 15px;
+	line-height: 20px;
+	text-align: left;
+	width: 167px;
+	height: 20px;
+	padding: 0px;
+}
+.suggestions > img {
+	width: 15px;
+	height: 25px;
 }
 .suggestionEditIcon {
-	height: 25px;
-	width: 25px;
+	height: 15px;
+	width: 15px;
 }
 .suggestions:first-child {
 	border: none;
@@ -1204,12 +1597,8 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 
 .belowSuggestionBoundary {
 	width: 1080px;
-	padding-bottom: 30px;
-	border-radius: 10px;
-	margin: 30px 0px 6px 120px;
+	margin: 30px 0px 0px 120px;
 	background-color: #ffffff;
-	border-radius: 10px;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 	border: 3px solid transparent;
 	border-image-source: linear-gradient(
 		276.97deg,
@@ -1220,18 +1609,18 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	);
 	border-image-slice: 1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: stretch;
+	box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .suggestionCard1 {
-	width: 455px;
-	height: fit-content;
-	border-radius: 10px;
-	margin-top: 20px;
+	width: 480px;
+	height: 333px;
+	border-radius: 17px;
+	margin-top: 8px;
 	padding-bottom: 20px;
 	background-color: #ffffff;
-	box-shadow: 0px 4px 4px 0px #00000040;
 }
 .suggestionCard2 {
 	width: 455px;
@@ -1240,36 +1629,67 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 .suggestionCard1TopFlex {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: stretch;
+	padding-left: 14px;
 }
-.suggestionCard1TopFlex > div > p {
-	display: inline-block;
-	padding: 10px;
+.suggestionCard1TopFlex > div {
+	display: flex;
+}
+.suggestionCard1TopFlex > div > p:first-child {
+	padding: 9px 0px 0px 9px;
 	font-family: Montserrat;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 14.63px;
 	text-align: left;
 }
+.suggestionCard1TopFlex > div > p {
+	padding: 9px 0px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.63px;
+	text-align: left;
+}
+.suggestionCard1TopFlex > div > img {
+	height: 24px;
+	width: 9px;
+	padding: 16px 0px;
+}
+
 .suggestionCard1Mid {
 	display: flex;
-	justify-content: space-evenly;
-	margin-top: 15px;
-	align-items: center;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .suggestionbottoninfo {
 	display: flex;
 	gap: 5px;
+	padding-top: 25px;
 	flex-direction: column;
 	align-items: center;
 }
+
+.suggestionBottomAmount {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: right;
+	margin-top: 11px;
+	margin-right: 26px;
+	color: #393939;
+}
 .suggestiontextTime {
+	font-family: Montserrat;
+
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 14.63px;
 	height: 15px;
+	margin: 0px;
 }
 .suggestionCenterPara {
 	font-family: Montserrat;
@@ -1277,27 +1697,56 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-weight: 400;
 	line-height: 17.07px;
 	text-align: center;
+	margin-top: 9px;
+	margin-bottom: 6px;
+	padding-left: 10px;
 }
-.suggestionBottom img,
-.suggestionBottom p {
+.suggestionCenterPara2 {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
+	text-align: center;
+	margin-top: 9px;
+	margin-bottom: 0px;
+	padding-right: 40px;
+}
+.suggestionBottom p,
+.suggestionBottom img {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.63px;
+	text-align: left;
 	display: inline-block;
-	margin-right: 10px;
 	vertical-align: middle;
+	margin-right: 10px;
 }
 .suggestionBottom {
-	padding-left: 10px;
+	padding-left: 14px;
+	padding-top: 7px;
 }
 .suggestionBottom > img {
 	padding-left: 10px;
 }
 .suggestionCard2TopFlex {
+	display: flex;
 	flex-direction: row-reverse;
+	padding-right: 33px;
+	justify-content: space-between;
+	padding-left: 0px;
+	align-items: stretch;
 }
-
+.suggestioncard2leftalign {
+	padding-left: 3px;
+	padding-top: 6px;
+}
 .suggestionBottomFlex {
 	display: flex;
-	margin: 0px 24px;
+	margin-top: 7px;
+	padding-top: initial;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 .background {
 	background-color: white;
@@ -1458,114 +1907,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 
 
 
-
 */
-.teamSecHead {
-	font-size: 96px;
-	font-weight: 200;
-	line-height: 84.48px;
-	text-align: left;
-	margin-left: 144px;
-	margin-top: 0px;
-}
-.inline {
-	display: inline-block;
-}
-
-.timecardflex {
-	display: flex;
-	gap: 12px;
-	align-items: flex-start;
-}
-.timeManageCard {
-	display: flex;
-	text-align: center;
-	width: 184px;
-	flex-direction: column;
-	align-items: center;
-}
-.timeManageCard > span {
-	margin: 10px;
-	display: inline-block;
-}
-.timeManageCard > div > span {
-	margin: 10px;
-	display: inline-block;
-}
-.timecardParagraph {
-	font-family: Open Sans;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 20px;
-	text-align: center;
-}
-
-.timecardbutton {
-	width: 140px;
-	height: 32px;
-	border-radius: 40px;
-	border: 1px solid #212121;
-	cursor: pointer;
-	width: 100%;
-	font-size: 18px;
-}
-.timecardbutton:hover,
-a:hover {
-	opacity: 0.7;
-}
-.timecardHeader {
-	font-family: Montserrat;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 20px;
-	text-align: center;
-}
-.timeCardImage {
-	border-radius: 50%;
-	width: 84px;
-	height: 84px;
-	text-align: center;
-}
-.cardbackcircleText {
-	font-family: Open Sans;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 20px;
-	text-align: center;
-}
-
-.cardbackcircle1 {
-	background-image: url("/assets/timeCardback1.svg");
-	width: 40px;
-	align-content: center;
-	height: 40px;
-}
-.cardbackcircle2 {
-	background-image: url("/assets/timeCardback2.svg");
-	width: 40px;
-	height: 40px;
-	align-content: center;
-}
-.cardbutton {
-	width: 140px;
-	height: 32px;
-	border-radius: 40px;
-	border: 1px;
-	background: #ffffff;
-	border: 1px solid #212121;
-}
-
-.timeinnercardflex {
-	display: flex;
-	gap: 12px;
-	justify-content: center;
-	align-items: center;
-}
-.timeinnercardflex > img {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-}
 
 /* //// Responsive teamand management */
 /* Small screens (up to 576px) */
@@ -1605,7 +1947,7 @@ a:hover {
 
 /* Medium screens (577px to 992px) */
 @media (min-width: 577px) and (max-width: 992px) {
-	.firstheadtrack {
+	.firstheadeasypayment {
 		width: 80%;
 		margin-left: 10%;
 		font-size: 80px;
@@ -1638,7 +1980,7 @@ a:hover {
 
 /* 4K large screens (2560px and above) */
 @media (min-width: 2560px) {
-	.firstheadtrack {
+	.firstheadeasypayment {
 		width: 1000px;
 		margin-left: calc(50% - 500px);
 		font-size: 144px;
@@ -1668,26 +2010,57 @@ a:hover {
 	}
 }
 
-/* ok;kklklkjl */
+/*
 
-/* ///easypayment section */
+
+
+*/
+
+/* ///  easy payment section  */
+
+.teamPayHead {
+	font-size: 96px;
+	font-weight: 200;
+	line-height: 84.48px;
+	text-align: left;
+	margin-left: 110px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+.paymentUls {
+	margin-left: 54px;
+	font-size: 24px;
+	margin-top: 88px;
+	font-weight: 500;
+	line-height: 28.13px;
+	width: 362px;
+	font-family: Roboto;
+	text-align: left;
+}
 
 .easyPayBoun {
 	background-image: url("/assets/custom.svg");
 	padding: 20px;
+	background-position-y: -230px;
 }
 
+.firstheadeasypayment {
+	width: 506px;
+	height: 91px;
+	font-size: 103px;
+	font-weight: 900;
+	line-height: 90.64px;
+	text-align: left;
+	margin: 91px 0px 10px 54px;
+}
+
+.paymentFlex {
+	display: flex;
+	justify-content: space-between;
+}
 .easypaymentcardboundary {
 	float: right;
-	margin-right: 120px;
-}
-.ulsnew {
-	width: 500px;
-	margin-left: 100px;
-	font-size: 24px;
-	margin-top: 10px;
-	font-weight: 500;
-	line-height: 28.13px;
+	margin-right: 157px;
 }
 
 .easypaymentcard1 {
@@ -1700,131 +2073,108 @@ a:hover {
 	border-radius: 26px;
 	box-shadow: 0px 4px 4px 0px #00000040;
 }
+
 .easypaymentcard2 {
+	font-family: Montserrat;
 	width: 423px;
-	height: 206px;
-	background-color: white;
+	height: 201px;
+	background-color: #c00f0f;
 	border-radius: 26px;
 	z-index: -1;
 	position: relative;
 	margin-bottom: 60px;
-	margin-top: -93px;
+	margin-top: -109px;
 	box-shadow: 0px 4px 4px 0px #00000040;
 }
-.easypaymentCards > td {
-	padding-right: 32px;
-	padding-bottom: 8px;
+
+.easypaymentCards > tr > td {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.07px;
+	text-align: left;
+	padding-top: 6.1px;
+	padding-left: 20px;
+}
+
+.easypaymentCards > tr > td > b {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17.07px;
+	text-align: left;
 }
 .easypaymentCards {
-	padding: 25px 20px 0px 23px;
+	padding: 25px 0px 0px 12px;
 }
-.easyPaymentCardBottomBoundary {
-	width: 1077px;
-	padding: 18px 10px 30px 0px;
+.easyPaymentCard2Inside {
+	padding: 17px 0px 0px 6px;
+}
+
+.easyPaymentCard2Inside > tr > td {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 6.7px;
+	padding-left: 21px;
+	line-height: 17.07px;
+	text-align: left;
+}
+.easyPaymentCard2Inside > tr > td > b {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17.07px;
+	text-align: left;
+}
+
+.easypaybottomboun {
+	margin-top: 4px;
+	margin-left: 161px;
+}
+.easyPaymentCarding {
+	display: flex;
+	width: 1056px;
+	padding: 3px 0px 0px 21px;
 	border-radius: 10px;
+	background-color: white;
 	font-family: Montserrat;
 	font-size: 12px;
-	margin-top: 30px;
+	height: 55px;
 	font-weight: 400;
 	line-height: 20px;
 	text-align: center;
 	box-shadow: 0px 4px 4px 0px #00000040;
 	margin-bottom: 10px;
+	justify-content: space-between;
+	align-items: center;
 }
-.easypaybottomboun {
-	margin-left: 110px;
-}
-.done {
-	color: #24ea28;
-}
-.pending {
-	color: #ff0000;
-}
-.easypaymentbutton {
-	width: 81px;
-	height: 27.11px;
-	padding: 5px 15px 5px 15px;
-	border-radius: 45px;
-	background-color: #043461;
-	color: #ffffff;
+.easyPaymentCarding > span {
 	font-family: Montserrat;
 	font-size: 12px;
 	font-weight: 700;
-	border: none;
-	text-align: center;
-	vertical-align: middle;
-}
-/*  */
-
-.easyPayBoun {
-	background-image: url("/assets/custom.svg");
-	padding: 20px;
-}
-
-.easypaymentcardboundary {
-	float: right;
-	margin-right: 120px;
-}
-
-.ulsnew {
-	width: 500px;
-	margin-left: 100px;
-	font-size: 24px;
-	margin-top: 10px;
-	font-weight: 500;
-	line-height: 28.13px;
-}
-
-.easypaymentcard1 {
-	z-index: 2;
-	position: relative;
-	width: 423px;
-	margin-left: 96px;
-	background-color: white;
-	height: 206px;
-	border-radius: 26px;
-	box-shadow: 0px 4px 4px 0px #00000040;
-}
-
-.easypaymentcard2 {
-	width: 423px;
-	height: 206px;
-	background-color: white;
-	border-radius: 26px;
-	z-index: -1;
-	position: relative;
-	margin-bottom: 60px;
-	margin-top: -93px;
-	box-shadow: 0px 4px 4px 0px #00000040;
-}
-
-.easypaymentCards > td {
-	padding-right: 32px;
-	padding-bottom: 8px;
-}
-
-.easypaymentCards {
-	padding: 25px 20px 0px 23px;
-}
-
-.easyPaymentCardBottomBoundary {
-	width: 1077px;
-	padding: 18px 10px 30px 0px;
-	border-radius: 10px;
-	font-family: Montserrat;
-	font-size: 12px;
-	margin-top: 30px;
-	font-weight: 400;
 	line-height: 20px;
 	text-align: center;
-	box-shadow: 0px 4px 4px 0px #00000040;
-	margin-bottom: 10px;
 }
-
-.easypaybottomboun {
-	margin-left: 110px;
+.easyPaymentCarding p {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	margin: 0px;
 }
-
+.straightLine {
+	height: 20px;
+	width: 20px;
+}
+.easyPaymentCarding b {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+}
 .done {
 	color: #24ea28;
 }
@@ -1832,7 +2182,10 @@ a:hover {
 .pending {
 	color: #ff0000;
 }
-
+.easypaymentcardingiconsboundary {
+	margin-right: 12px;
+	margin-top: 5px;
+}
 .easypaymentbutton {
 	width: 81px;
 	height: 27.11px;
@@ -1842,12 +2195,21 @@ a:hover {
 	color: #ffffff;
 	font-family: Montserrat;
 	font-size: 12px;
-	font-weight: 700;
+	margin-top: -17px;
+	margin-right: 11px;
 	border: none;
 	text-align: center;
 	vertical-align: middle;
 }
-
+.paymentUls2 {
+	margin-top: 35px;
+	margin-left: 55px;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29.13px;
+	font-family: Roboto;
+	text-align: left;
+}
 /* Media Queries */
 @media (max-width: 767px) {
 	.easypaymentcardboundary {
