@@ -1,3 +1,7 @@
+/* global.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Helvetica&family=Open+Sans&display=swap");
+
 body {
 	padding: 0px;
 	margin: 0px;

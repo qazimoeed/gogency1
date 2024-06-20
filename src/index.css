@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* global.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Helvetica&family=Open+Sans&display=swap");
 
 .lastSectionBoundary {
 	background-image: url("/assets/rectanglegreen.svg");
