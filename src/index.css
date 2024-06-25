@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* global.css */
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Helvetica&family=Open+Sans&display=swap");
 
 .lastSectionBoundary {
 	background-image: url("/assets/rectanglegreen.svg");
@@ -88,4 +85,27 @@ a:hover {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
+}
+
+@keyframes slide {
+	to {
+		transform: translate(calc(100% - 100cqw), 0);
+	}
+}
+
+@keyframes spin-around {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.animate-slide {
+	animation: slide var(--speed, 2s) ease-in-out infinite alternate;
+}
+
+.animate-spin-around {
+	animation: spin-around calc(var(--speed, 2s) * 2) linear infinite;
 }

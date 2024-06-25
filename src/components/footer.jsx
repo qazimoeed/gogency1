@@ -5,7 +5,7 @@ export default function Footer() {
 		<>
 			{/* max-width: 1440px;
 		margin: auto; */}
-			<footer className="bg-[#212121] px-4 pt-8 md:px-[71px] md:pt-[87px] h-auto md:h-[623px]">
+			<footer className="bg-[#212121] w-full px-4 pt-8 md:px-[71px] md:pt-[87px] h-auto">
 				<section className="footerInternal max-w-screen-xl mx-auto">
 					<img
 						src="/assets/gogencyDark.svg"
@@ -31,7 +31,7 @@ export default function Footer() {
 							<p>Auditable Process Timeline</p>
 						</div>
 					</div>
-					<div className="rightsLink flex flex-col md:flex-row justify-between items-center mt-[8] md:mt-[62px]">
+					<div className="rightsLink flex flex-col md:flex-row justify-between items-center mt-[8px] md:mt-[62px]">
 						<div className="text-[12.8px] font-bold leading-[15.6px] text-left text-white mt-[34px] md:mt-0">
 							© 2023 All Rights Reserved The Gogency
 						</div>
@@ -42,7 +42,7 @@ export default function Footer() {
 						</div>
 					</div>
 					<div>
-						<ul className="montseratFont mt-8 md:mt-[87px] w-full md:w-[614px]  pt-1 px-0 list-none flex flex-col sm:items-center md:flex-row justify-between text-[17px] font-bold">
+						<ul className="montseratFont mb-0 pb-[100px] mt-8 md:mt-[87px] w-full md:w-[614px] pt-6 px-0 list-none flex flex-col md:flex-row justify-between text-[17px] font-bold items-center">
 							<li className="mt-2 md:mt-0">
 								<a href="#" className="text-decoration">
 									Privacy Policy

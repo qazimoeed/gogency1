@@ -1,34 +1,64 @@
 import React from "react"
+import TextReveal from "./magicui/text-reveal"
+import ShinyButton from "./magicui/shiny-button"
+import { MagicContainer, MagicCard } from "./magicui/magic-card"
+import ShimmerButton from "./magicui/shimmer-button"
+import ShinyButton2 from "./magicui/shiny-button2"
+import NeonGradientCard from "./magicui/gradient-border"
+import FloatLeft from "./magicui/floatLeft"
+import FloatRight from "./magicui/floadRight"
+import BoxReveal from "./magicui/box-reveal"
+import NumberTicker from "./magicui/number-ticker"
+import TypingAnimation from "./magicui/typing-animation"
 
 export default function TimeManagement() {
 	return (
 		<>
-			<div className="timeManagementBoundary">
-				<div>
-					<div className="w-[380px] h-[91px] text-[103px] font-black leading-[90.64px] text-left mt-[80px] mb-[5px] ml-[76px] mr-0">
-						Team &
-					</div>
-					<div className="text-[96px] font-extralight leading-[84.48px] text-left ml-[129px] mt-[8px]">
-						HR MANAGEMENT
-					</div>
-				</div>
+			<div className="timeManagementBoundary mt-32">
+				<FloatLeft>
+					<TextReveal
+						textItems={[
+							{
+								text: "Team  &",
+								className:
+									"w-[380px] h-[91px] text-[103px] font-black leading-[90.64px] text-left mt-[80px] mb-[5px] ml-[76px] mr-0",
+							},
+							{
+								text: "HR MANAGEMENT",
+								className:
+									"text-[96px] font-extralight leading-[84.48px] text-left ml-[129px] mt-[8px]",
+							},
+						]}
+					/>
+				</FloatLeft>
 
-				<div className="flex justify-between items-start mt-[73px]">
-					<ul className="list-disc text-left mt-[42px] ml-[75px]">
-						<li className="text-[24px] w-[430px] font-semibold leading-[28.13px]">
-							Team performance
-						</li>
-						<li className="text-[24px] w-[430px] font-semibold leading-[28.13px]">
-							Attendance record
-						</li>
-						<li className="text-[24px] w-[430px] font-semibold leading-[28.13px]">
-							Meeting invites and management
-						</li>
-					</ul>
+				<div className="flex justify-between items-start mt-[73px] ">
+					<BoxReveal boxColor={"#24ea28"} duration={0.5}>
+						<ul className="list-disc text-left mt-[42px] ml-[75px] relative">
+							<TypingAnimation
+								listClassName="text-[24px] w-[430px] font-semibold leading-[28.13px] text-black"
+								text="Team performance"
+								priority={1}
+								duration={1}
+							/>
+							<TypingAnimation
+								listClassName="text-[24px] w-[430px] font-semibold leading-[28.13px] text-black"
+								text="Attendance record"
+								priority={2}
+								duration={1.25}
+							/>
 
-					<div className="flex mr-[180px]">
-						<div className="flex space-x-0 gap-5">
-							<div className="shadowClass bg-white rounded-lg p-0 text-center w-[184px] h-[260px]">
+							<TypingAnimation
+								listClassName="text-[24px] w-[430px] font-semibold leading-[28.13px] text-black"
+								text="Meeting invites and management"
+								priority={3}
+								duration={1.5}
+							/>
+						</ul>
+					</BoxReveal>
+					<FloatRight className="flex mr-[180px]">
+						<MagicContainer className="flex space-x-0 gap-5">
+							<MagicCard className="shadowClass bg-white rounded-[25px] p-0 text-center w-[184px] h-[260px]">
 								<img
 									src="/assets/timeCard1.svg"
 									className="rounded-full mx-auto w-[60px] h-[60px] mt-[17px]"
@@ -42,10 +72,10 @@ export default function TimeManagement() {
 								</p>
 								<div className="timeinnercardflex mt-[15px]">
 									<span className="cardbackcircle1 cardbackcircleText">
-										<b>84%</b>
+										<NumberTicker value={84} className="text-black" />%
 									</span>
-									<span className="cardbackcircle2 cardbackcircleText">
-										<b>85%</b>
+									<span className="cardbackcircle2 cardbackcircleText ">
+										<NumberTicker value={85} className="text-black" />%
 									</span>
 								</div>
 								<div className="timecardflex mt-[8px]">
@@ -56,9 +86,9 @@ export default function TimeManagement() {
 								<button className="cardbutton mt-[16px] w-[140px] h-[32px] pt-[1px] pl-[7.4px] text-[12px]">
 									Profile Details
 								</button>
-							</div>
+							</MagicCard>
 
-							<div className="shadowClass bg-white rounded-lg p-0 text-center w-[184px] h-[260px]">
+							<MagicCard className="shadowClass bg-white rounded-[25px] p-0 text-center w-[184px] h-[260px]">
 								<img
 									src="/assets/timeCard2.svg"
 									className="rounded-full mx-auto w-[60px] h-[60px] mt-[17px]"
@@ -72,10 +102,10 @@ export default function TimeManagement() {
 								</p>
 								<div className="timeinnercardflex mt-[15px]">
 									<span className="cardbackcircle1 cardbackcircleText">
-										85%
+										<NumberTicker value={85} className="text-black" />%
 									</span>
 									<span className="cardbackcircle2 cardbackcircleText">
-										87%
+										<NumberTicker value={87} className="text-black" />%
 									</span>
 								</div>
 								<div className="timecardflex mt-[8px]">
@@ -86,9 +116,9 @@ export default function TimeManagement() {
 								<button className="cardbutton mt-[16px] w-[140px] h-[32px] pt-[1px] pl-[7.4px] text-[12px]">
 									Profile Details
 								</button>
-							</div>
+							</MagicCard>
 
-							<div className="shadowClass bg-white rounded-lg p-0 text-center w-[184px] h-[260px]">
+							<MagicCard className="shadowClass bg-white rounded-[25px] p-0 text-center w-[184px] h-[260px]">
 								<img
 									src="/assets/timeCard3.svg"
 									className="rounded-full mx-auto w-[60px] h-[60px] mt-[17px]"
@@ -102,10 +132,10 @@ export default function TimeManagement() {
 								</p>
 								<div className="timeinnercardflex mt-[15px]">
 									<span className="cardbackcircle1 cardbackcircleText">
-										74%
+										<NumberTicker value={74} className="text-black" />%
 									</span>
 									<span className="cardbackcircle2 cardbackcircleText">
-										95%
+										<NumberTicker value={95} className="text-black" />%
 									</span>
 								</div>
 								<div className="timecardflex mt-[8px]">
@@ -116,9 +146,9 @@ export default function TimeManagement() {
 								<button className="cardbutton mt-[16px] w-[140px] h-[32px] pt-[1px] pl-[7.4px] text-[12px]">
 									Profile Details
 								</button>
-							</div>
-						</div>
-					</div>
+							</MagicCard>
+						</MagicContainer>
+					</FloatRight>
 				</div>
 
 				<div className="shadowClass bg-white rounded-[2rem] mt-[55px] ml-[181px] w-[1075px] h-[455px]">

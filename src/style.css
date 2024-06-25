@@ -1,7 +1,5 @@
 /* global.css */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Helvetica&family=Open+Sans&display=swap");
-
 body {
 	padding: 0px;
 	margin: 0px;
@@ -228,7 +226,7 @@ html::before {
 
 Experice Section ..........,,,,,,,,,,,,,,,.......... 
 
-*/
+
 .firstHeadingCustomer {
 	width: 506px;
 	height: 91px;
@@ -470,8 +468,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	color: #ffffff;
 	border: none;
 }
+*/
 
-.customerExperiencrBottomBoundary {
+/* .customerExperiencrBottomBoundary {
 	width: 830px;
 	margin-left: 163px;
 	margin-top: 74px;
@@ -533,9 +532,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 .alignment {
 	padding-top: 6px;
-}
+} */
 
-/* Large Scren */
+/* Large Scren
 @media (min-width: 1921px) {
 	.customerboundaryforresponsive {
 		max-width: 1440px;
@@ -574,11 +573,11 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.customerExperiencrBottomCard1,
 	.customerExperiencrBottomCard2 {
 		width: fit-content;
-	} */
+	}  
 }
 
-/* Small Devices (Mobile) */
-@media only screen and (max-width: 600px) {
+/* Small Devices (Mobile)   */
+/*@media only screen and (max-width: 600px) {
 	.firstHeadingCustomer,
 	.secondHeadingCustomer {
 		width: 65%;
@@ -645,7 +644,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.customerExperiencrBottomCard1,
 	.customerExperiencrBottomCard2 {
 		width: 100%;
-		margin-bottom: 10px; /* Add some space between the cards */
+		margin-bottom: 10px;  
 		display: block;
 	}
 
@@ -659,8 +658,8 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.customerExperiencrBottomCard2 td {
 		display: block;
 		width: 100%;
-		text-align: center; /* Adjust as necessary */
-		padding: 10px 0; /* Add some padding for better spacing */
+		text-align: center; /* Adjust as necessary 
+		padding: 10px 0; /* Add some padding for better spacing  
 	}
 	.alignment,
 	.alignment {
@@ -673,7 +672,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	}
 }
 
-/* Medium Devices (Tablet) */
+/* Medium Devices (Tablet)  
 @media only screen and (min-width: 601px) and (max-width: 992px) {
 	.firstHeadingCustomer,
 	.secondHeadingCustomer {
@@ -739,7 +738,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		float: none;
 		margin-right: 0;
 	}
-}
+} */
 
 /* 
 
@@ -818,10 +817,24 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		height: 875.5px;
 	}
 } */
-/* //Footer CSS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/* //Footer CSS ,,,,,,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 
 /* Mobile Screens */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 20px;
@@ -855,10 +868,10 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		margin-top: 20px;
 		gap: 10px;
 	}
-}
+} */
 
 /* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
+/* @media (min-width: 481px) and (max-width: 768px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 40px;
@@ -877,15 +890,15 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		width: 100%;
 		justify-content: space-around;
 	}
-}
+} */
 
 /* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* @media (min-width: 769px) and (max-width: 1024px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 60px;
 	}
-}
+} */
 
 /* Large Screens
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -922,7 +935,14 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	}
 }
 
-/* .........//////////////////,,,,,,,,,,,,,,,,,,/////////////////track Inquireis */
+/* .........///////////
+
+
+///////,,,,,,,,,,,,,,,,,,
+
+
+/////////////////track Inquireis */
+
 .trackerBoundaryforResponsive {
 	max-width: 1440px;
 }
@@ -1772,7 +1792,12 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 */
 
 /* ///  easy payment section  */
-
+/* .easypaymentboundary {
+	background-image: url("/assets/custom.svg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .teamPayHead {
 	font-size: 96px;
 	font-weight: 200;
@@ -1792,15 +1817,11 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-family: Roboto;
 	text-align: left;
 }
-
 .easyPayBoun {
-	background-image: url("/assets/custom.svg");
 	padding: 20px;
-	background-position-y: -230px;
 	max-width: 1388px;
 	margin: auto;
 }
-
 .firstheadeasypayment {
 	width: 506px;
 	height: 91px;
@@ -1815,6 +1836,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	display: flex;
 	justify-content: space-between;
 }
+
 .easypaymentcardboundary {
 	float: right;
 	margin-right: 157px;
@@ -1883,9 +1905,11 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-weight: 700;
 	line-height: 17.07px;
 	text-align: left;
-}
+} */
 
-.easypaybottomboun {
+/* 
+ */
+/* .easypaybottomboun {
 	margin-top: 4px;
 	margin-left: 161px;
 }
@@ -1966,7 +1990,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	line-height: 29.13px;
 	font-family: Roboto;
 	text-align: left;
-}
+} */
 /* Media Queries */
 @media (max-width: 767px) {
 	.easypaymentcardboundary {
