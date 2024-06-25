@@ -15,10 +15,14 @@ function App() {
 			<Navbar />
 			<HeroSection />
 			<Section1 />
-			<CustomerExperience />
-			<Track />
+
 			<Easypayments />
+			<CustomerExperience />
+
 			<TimeManagement />
+
+			{/*<Track />*/}
+
 			<LastSection />
 			<Footer />
 		</>

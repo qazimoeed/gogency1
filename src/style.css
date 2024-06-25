@@ -1,23 +1,13 @@
+/* global.css */
+
 body {
 	padding: 0px;
 	margin: 0px;
 	font-family: Roboto;
 	background-color: #ffffff;
 }
-
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 70px 20px 70px;
-	border-bottom: 1px solid #c3c3c3;
-}
-
-.logo img {
-	width: 200px;
-	padding-top: 6px;
-	padding-left: 4px;
-	height: 50.55px;
+html::before {
+	background-color: transparent; /* or initial */
 }
 
 .tabs {
@@ -27,312 +17,34 @@ body {
 	font-weight: 600;
 	line-height: 19.2px;
 	text-align: left;
-	width: 400px;
+	width: 555px;
 	justify-content: space-evenly;
 	padding: 1px 0px 1px 0px;
 }
 
-.tabs li {
-	line-height: 19.2px;
-	text-align: center;
-}
-
-.tabs a {
-	color: black;
-	vertical-align: middle;
-	text-decoration: none;
-}
-
-.button {
-	width: 264px;
-	height: 50px;
-	padding: 15px 50px 15px 50px;
-	margin-right: 7px;
-	background-color: #24ea28;
-	color: black;
-	border: none;
-	border: 1px solid #24ea28;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-top: 1px;
-	font-family: Roboto;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 20px;
-	text-align: center;
-}
-
-.button:hover {
-	background-color: #45a049;
-}
-
-.menu-toggle {
-	display: none;
-}
-
-.burger-btn {
-	background: none;
-	border: none;
-	font-size: 24px;
-	cursor: pointer;
-}
-@media (max-width: 992px) {
-	.navbar {
-		padding: 20px 40px;
-	}
-	.tabs {
-		width: auto;
-		justify-content: center;
-	}
-}
-
-@media (max-width: 768px) {
-	.navbar {
-		padding: 20px;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.tabs {
-		display: none;
-	}
-
-	.menu-toggle {
-		display: block;
-		margin-left: auto;
-	}
-
-	.navbar.show .tabs {
-		display: flex;
-		flex-direction: column;
-		position: absolute;
-		top: 80px;
-		left: 0;
-		width: 100%;
-		background-color: #f4f4f4;
-		padding: 20px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	}
-
-	.navbar.show .tabs li {
-		margin-bottom: 10px;
-	}
-
-	.button {
-		display: none;
-	}
-}
-@media (min-width: 1200px) {
-	.navbar {
-		padding: 14px 75px;
-	}
-
-	.tabs {
-		width: 600px;
-	}
-}
 /*  Hero Section */
+
 .heroVector {
 	background-image: url(/assets/heroVector.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: 0px;
 	background-position-x: 0px;
-	height: 534px;
-	width: 1290px;
 	padding: 100px 75px 0px 75px;
 	margin-bottom: 300px;
+	max-height: 600px;
 }
-
-.heroContainer {
-	padding: 55px 0px;
-	text-align: center;
-}
-
-.heroHeading {
-	margin-bottom: 0px;
-	font-family: Roboto;
-	font-size: 82px;
-	margin-top: 7.5px;
-	margin-right: 20px;
-	font-weight: 900;
-	line-height: 72px;
-	text-align: center;
-}
-.heroHeadingheropart2 {
-	margin-bottom: 0px;
-	font-family: Roboto;
-	font-size: 82px;
-	margin-top: 1px;
-	margin-right: 4px;
-	font-weight: 900;
-	line-height: 72px;
-	text-align: center;
-}
-
-.heroPara {
-	font-family: Roboto;
-	font-size: 24px;
-	margin-top: 35px;
-	margin-left: -10px;
-	font-weight: 400;
-	line-height: 24.36px;
-	text-align: center;
-}
-
-.heroCta {
-	width: auto;
-	height: auto;
-	align-items: center;
-	margin: 41px 0px;
-	gap: 20px;
-	padding: 15px;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
 .btnFont {
 	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 18px;
 	text-align: center;
 }
 
-.firstBtn {
-	width: 246px;
-	height: 50px;
-	padding: 15px, 50px, 15px, 50px;
-	background-color: #212121;
-	border-radius: 30px;
-	border: none;
-	color: #24ea28;
-}
-
-.secondBtn {
-	width: 246px;
-	height: 50px;
-	background-color: #ffffff;
-	border-radius: 30px;
-	border: none;
-	color: #212121;
-	border: 1px solid #212121;
-}
-
-.earthImage {
-	max-width: 100%;
-	height: auto;
-	margin-right: 10px;
-	margin-top: 0px;
-}
-/* 
-/* Mobile
-@media (max-width: 480px) {
-	.heroContainer {
-		margin: 20px;
-		padding: 40px 20px;
-	}
-
-	.heroHeading {
-		font-size: 32px;
-	}
-
-	.heroPara {
-		font-size: 18px;
-	}
-
-	.heroCta {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.firstBtn,
-	.secondBtn {
-		margin-bottom: 10px;
-		width: 200px;
-	}
-}
-
-/* Tablets  
-@media (min-width: 481px) and (max-width: 768px) {
-	.heroContainer {
-		margin: 20px;
-		padding: 40px;
-	}
-
-	.heroHeading {
-		font-size: 42px;
-	}
-
-	.heroPara {
-		font-size: 20px;
-	}
-
-	.heroCta {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.firstBtn,
-	.secondBtn {
-		margin-bottom: 10px;
-	}
-}
-
-/* Laptops  
-@media (min-width: 769px) and (max-width: 1024px) {
-	.heroContainer {
-		margin: 40px;
-		padding: 80px;
-	}
-
-	.heroHeading {
-		font-size: 52px;
-	}
-
-	.heroPara {
-		font-size: 22px;
-	}
-}
-
-/* Large Screens  
-@media (min-width: 1025px) and (max-width: 1440px) {
-	.heroContainer {
-		margin: 40px;
-		padding: 80px;
-	}
-
-	.heroHeading {
-		font-size: 62px;
-	}
-
-	.heroPara {
-		font-size: 24px;
-	}
-}
-
-/* 4K 2560 Screens  
-@media (min-width: 1441px) and (max-width: 2560px) {
-	.heroContainer {
-		margin: 100px 0px 100px 0px;
-		padding: 80px;
-	}
-
-	.heroHeading {
-		font-size: 82px;
-		padding: 104px;
-	}
-
-	.heroPara {
-		font-size: 28px;
-	}
-} */
-
 /* ,,,,,......,.,Section 1 .,.,.,,,,,,,,,,,. */
 
-.section1Container {
+/* .section1Container {
 	margin: 99.4px 31px 60px 0px;
 	padding: 100px 0px 0px 0px;
 }
@@ -341,6 +53,7 @@ body {
 	display: flex;
 	align-items: stretch;
 	justify-content: space-evenly;
+	max-width: 1440px;
 }
 
 .firstHeadingSection1 {
@@ -418,185 +131,102 @@ body {
 	margin-right: 60px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 	.secOneCont {
 		flex-direction: column;
 		align-items: center;
-		margin: 20px;
-
-		padding: 0;
+		margin: 8px 6px;
 	}
-
-	.firstHeading,
-	.secondHeading {
-		margin-left: 0;
-		font-size: 32px;
-		line-height: 1.2;
-		width: auto;
-		height: auto;
-		text-align: center;
-	}
-
-	.secondHeading {
-		margin-top: 0;
-		margin-left: 0;
-	}
-
-	.firstPara {
-		padding-left: 0;
-		width: auto;
-		height: auto;
-		text-align: center;
-		font-size: 16px;
-		margin-bottom: 20px;
-	}
-
 	.sec1Btn {
-		margin-left: 0;
-		margin-bottom: 20px;
+		margin-left: 56px;
 	}
-
-	.sect1box2 {
-		width: 100%;
-		height: auto;
-		margin-top: 0;
-		border: none;
-		padding: 20px;
-		box-sizing: border-box;
-	}
-
-	.sect1Logo {
-		margin-left: 0;
-		margin-bottom: 20px;
-	}
-
-	.sect1back {
-		width: 100%;
-		height: auto;
-		background-size: cover;
-		background-position: center;
-		padding: 20px;
-		box-sizing: border-box;
-	}
-
-	.sect1box1Para {
-		padding: 0;
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.belowsect1 {
-		padding: 0;
-		text-align: center;
-	}
-
-	.aligns {
-		margin-right: 0;
-		margin-top: 20px;
-	}
-}
-
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-	.secOneCont {
-		flex-direction: column;
-		align-items: center;
-		margin: 20px;
-		padding: 0;
-	}
-
-	.firstHeading,
-	.secondHeading {
-		margin-left: 0;
+	.firstHeadingSection1,
+	.secondHeadingSection1 {
 		font-size: 48px;
-		line-height: 1.2;
-		width: auto;
+		line-height: 42px;
 		height: auto;
-		text-align: center;
-	}
-
-	.secondHeading {
-		margin-top: 0;
+		width: auto;
 		margin-left: 0;
+		padding-top: 0;
+		text-align: center;
 	}
 
 	.firstPara {
-		padding-left: 0;
 		width: auto;
 		height: auto;
-		text-align: center;
 		font-size: 18px;
-		margin-bottom: 20px;
-	}
-
-	.sec1Btn {
-		margin-left: 0;
-		margin-bottom: 20px;
+		line-height: 18.27px;
+		padding-left: 0;
+		text-align: center;
 	}
 
 	.sect1box2 {
 		width: 100%;
 		height: auto;
-		margin-top: 0;
-		border: 1px solid #c3c3c3;
-		padding: 20px;
-		box-sizing: border-box;
+		margin-top: 30px;
 	}
 
 	.sect1Logo {
-		margin-left: 0;
-		margin-bottom: 20px;
+		width: 120px;
+		height: 80.4px;
+		margin: 10px auto;
+		display: block;
 	}
 
 	.sect1back {
 		width: 100%;
 		height: auto;
 		background-size: cover;
-		background-position: center;
-		padding: 20px;
-		box-sizing: border-box;
 	}
 
 	.sect1box1Para {
-		padding: 0;
+		padding: 20px;
 		margin-top: 0;
-		text-align: center;
 	}
 
 	.belowsect1 {
-		padding: 0;
-		text-align: center;
+		padding: 16px;
 	}
 
 	.aligns {
-		margin-right: 0;
-		margin-top: 20px;
+		margin: 20px auto 0;
+	}
+
+	.sect1box2lowerimage {
+		max-width: 100%;
+		height: auto;
 	}
 }
 
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-	.firstHeading {
-		font-size: 72px;
-		line-height: 1.2;
+@media (min-width: 768px) and (max-width: 1199px) {
+	.secOneCont {
+		flex-direction: column;
+		padding: 6px 86px;
+		margin: auto;
 	}
-
-	.secondHeading {
-		font-size: 72px;
-		line-height: 1.2;
+	.firstHeadingSection1,
+	.secondHeadingSection1 {
+		font-size: 64px;
+		line-height: 56px;
 	}
 
 	.firstPara {
-		width: auto;
+		font-size: 20px;
+		line-height: 20.3px;
 	}
 }
+
+@media (min-width: 2560px) {
+	.secOneCont {
+		margin: auto;
+	}
+} */
 
 /* 
 
 Experice Section ..........,,,,,,,,,,,,,,,.......... 
 
 
-*/
 .firstHeadingCustomer {
 	width: 506px;
 	height: 91px;
@@ -838,8 +468,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	color: #ffffff;
 	border: none;
 }
+*/
 
-.customerExperiencrBottomBoundary {
+/* .customerExperiencrBottomBoundary {
 	width: 830px;
 	margin-left: 163px;
 	margin-top: 74px;
@@ -901,7 +532,214 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 .alignment {
 	padding-top: 6px;
+} */
+
+/* Large Scren
+@media (min-width: 1921px) {
+	.customerboundaryforresponsive {
+		max-width: 1440px;
+		margin: auto;
+	}
+	/* section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+	.firstHeadingCustomer {
+		width: 506px;
+		height: 91px;
+		font-size: 103px;
+		font-weight: 900;
+		line-height: 90.64px;
+		text-align: left;
+		margin: 0px 0px 0px 82px;
+		margin-bottom: 0px;
+	}
+	.secondHeadingCustomer {
+		font-size: 96px;
+		margin: 1px 35px 23px 135px;
+		font-weight: 200;
+		line-height: 78.64px;
+	}
+	.helo,
+	.boxesBoundary,
+	.customerExperiencrBottomBoundary {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: fit-content;
+	}  
 }
+
+/* Small Devices (Mobile)   */
+/*@media only screen and (max-width: 600px) {
+	.firstHeadingCustomer,
+	.secondHeadingCustomer {
+		width: 65%;
+	}
+	.firstHeadingCustomer {
+		font-size: 42px;
+		padding-bottom: 0px;
+		margin-left: 40px;
+	}
+	.secondHeadingCustomer {
+		font-size: 35px;
+		margin-left: 80px;
+		margin-bottom: 0px;
+	}
+	.custBtn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.boxesBoundary {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.custbox1 {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.uls {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.card2Btn1 {
+		margin-left: 22px;
+		margin-bottom: 20px;
+	}
+	.card1 {
+		width: 80%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+	}
+	.card2 {
+		width: 62%;
+		margin-left: 12%;
+		margin-top: 5%;
+		padding-bottom: 30px;
+		height: auto;
+	}
+	.customerExperiencrBottomBoundary {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: 100%;
+		margin-bottom: 10px;  
+		display: block;
+	}
+
+	.customerExperiencrBottomCard1 tr,
+	.customerExperiencrBottomCard2 tr {
+		display: block;
+		width: 100%;
+	}
+
+	.customerExperiencrBottomCard1 td,
+	.customerExperiencrBottomCard2 td {
+		display: block;
+		width: 100%;
+		text-align: center; /* Adjust as necessary 
+		padding: 10px 0; /* Add some padding for better spacing  
+	}
+	.alignment,
+	.alignment {
+		transform: rotate(90deg);
+	}
+	.helo {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+
+/* Medium Devices (Tablet)  
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+	.firstHeadingCustomer,
+	.secondHeadingCustomer {
+		font-size: 60px;
+		width: fit-content;
+	}
+
+	.custBtn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.boxesBoundary {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.custbox1 {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.uls {
+		font-size: 18px;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.card1 {
+		width: 50%;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+	}
+
+	.card2 {
+		width: 50%;
+		margin-left: 195px;
+		padding-left: 20px;
+		margin-top: 22px;
+		padding-right: 20px;
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.customerExperiencrBottomBoundary {
+		width: 95%;
+		margin-left: 20px;
+		margin-top: 22px;
+	}
+
+	.customerExperiencrBottomCard1,
+	.customerExperiencrBottomCard2 {
+		width: 100%;
+	}
+
+	.helo {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+} */
+
 /* 
 
 
@@ -979,10 +817,24 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		height: 875.5px;
 	}
 } */
-/* //Footer CSS ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+/* //Footer CSS ,,,,,,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 
 /* Mobile Screens */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 20px;
@@ -1016,10 +868,10 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		margin-top: 20px;
 		gap: 10px;
 	}
-}
+} */
 
 /* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
+/* @media (min-width: 481px) and (max-width: 768px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 40px;
@@ -1038,15 +890,15 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 		width: 100%;
 		justify-content: space-around;
 	}
-}
+} */
 
 /* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* @media (min-width: 769px) and (max-width: 1024px) {
 	.footerBoundary {
 		width: 100%;
 		padding: 60px;
 	}
-}
+} */
 
 /* Large Screens
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -1083,8 +935,17 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	}
 }
 
-/* .........//////////////////,,,,,,,,,,,,,,,,,,/////////////////track Inquireis */
+/* .........///////////
 
+
+///////,,,,,,,,,,,,,,,,,,
+
+
+/////////////////track Inquireis */
+
+.trackerBoundaryforResponsive {
+	max-width: 1440px;
+}
 .secheadtrack {
 	font-size: 96px;
 	font-weight: 200;
@@ -1163,6 +1024,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 .detailsInquiryBoundary {
 	background-image: url("/assets/detailsbackground.svg");
 	padding: 0px 0px;
+	max-width: 1440px;
 }
 .detailsInquiry {
 	display: flex;
@@ -1707,166 +1569,124 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	background-color: white;
 }
 
-/* Mobile Screens */
-@media (max-width: 480px) {
-	.trackBoundary {
-		margin-left: 0;
+/* For screens smaller than 768px (e.g., mobile devices) */
+
+@media (max-width: 767px) {
+	.firstheadtrack,
+	.secheadtrack,
+	.ulsTrack,
+	.trackBoundary,
+	.detailsInquiryBoundary,
+	.suggestionCoverBoundary {
+		margin-left: 16px;
+		margin-right: 16px;
 	}
 
 	.innertrack1 {
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-left: 0;
+		flex-direction: column;
+		gap: 10px;
+		padding: 10px;
+		align-items: center;
+	}
+
+	.innertrack1 h3,
+	.innertrack1 p {
+		text-align: center;
+	}
+
+	.detailsInquiry {
+		flex-direction: column;
+		padding: 16px;
+		width: auto;
+	}
+
+	.firstTrackercard,
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 100%;
+	}
+
+	.suggestionCard1Mid,
+	.suggestionBottomFlex {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.suggestionbottoninfo {
+		flex-direction: row;
+		gap: 10px;
+		padding-top: 10px;
+	}
+
+	.suggestionBottom {
+		padding-left: 0;
+		text-align: center;
+	}
+}
+
+/* For screens between 768px and 1199px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.innertrack1 {
+		gap: 20px;
 		padding: 10px;
 	}
 
 	.detailsInquiry {
 		flex-direction: column;
-		align-items: center;
+		padding: 32px;
 		width: auto;
-		padding: 20px;
 	}
 
 	.firstTrackercard {
 		width: 100%;
 	}
 
-	.outerSuggesionBoundary {
-		flex-direction: column;
-		align-items: center;
-		padding-top: 10px;
-	}
-
-	.image-text {
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-bottom: 10px;
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 80%;
 	}
 
 	.belowSuggestionBoundary {
-		width: 100%;
-		margin: 20px 0;
-		padding: 20px;
+		width: auto;
+		margin: 30px;
 		flex-direction: column;
 		align-items: center;
 	}
-
-	.suggestionCard1 {
-		width: 100%;
-		margin-top: 10px;
-	}
 }
 
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-	.innertrack1 {
-		margin-left: 20px;
+/* For screens larger than or equal to 1200px (e.g., desktops) */
+@media (min-width: 1200px) {
+	.trackerBoundaryforResponsive {
+		margin: auto;
 	}
-
-	.detailsInquiry {
-		padding: 40px;
-	}
-
-	.outerSuggesionBoundary {
-		padding-top: 15px;
-	}
-
 	.belowSuggestionBoundary {
-		width: 90%;
-		margin: 30px auto;
-		padding: 30px;
+		width: 1080px;
+		flex-direction: row;
+		margin: 30px auto 0;
+		height: auto;
+	}
+
+	.suggestionCard1,
+	.suggestionCard2 {
+		width: 480px;
+		height: 333px;
+	}
+	.detailsInquiryBoundary {
+		margin: auto;
 	}
 }
 
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-	.detailsInquiry {
-		width: 90%;
-		padding: 40px;
-	}
-
-	.belowSuggestionBoundary {
-		width: 90%;
-		margin: 30px auto;
-	}
-}
-
-/* Large Screens */
-@media (min-width: 1025px) and (max-width: 1440px) {
-	/* No changes needed for this screen size */
-}
-
-/* 4K 2560 Screens */
-@media (min-width: 1441px) and (max-width: 2560px) {
-	.firstheadtrack {
-		font-size: 120px;
-	}
-
-	.secheadtrack {
-		font-size: 120px;
-	}
-
-	.innertrack1 {
-		font-size: 18px;
-	}
-
-	.firstTrackercard {
-		width: 600px;
-		height: 300px;
-	}
-
-	.trackerImage {
-		width: 150px;
-		height: 150px;
-	}
-
-	.trackercardinfotext {
-		font-size: 16px;
-	}
-
-	.secondCardtrackFlex {
-		font-size: 18px;
-	}
-
-	.secondTrackCardRed {
-		font-size: 40px;
-	}
-
-	.secondTracktextTime {
-		font-size: 16px;
-	}
-
-	.suggestionCard1 {
-		width: 600px;
-	}
-
-	.suggestionCard1Mid {
-		font-size: 18px;
-	}
-
-	.suggestiontextTime {
-		font-size: 16px;
-	}
-
-	.suggestionCenterPara {
-		font-size: 18px;
-	}
-}
-
-/* 
-
-
-
+/*
 /////////////////........................,,,,,,,,,,,,,,,,,,,team and management 
-
-
-
-
 */
+.timeManagementBoundary {
+	max-width: 1440px;
+	margin: auto;
+}
 
 /* //// Responsive teamand management */
 /* Small screens (up to 576px) */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
 	.firstheadtrack {
 		width: 90%;
 		margin-left: 5%;
@@ -1901,7 +1721,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 }
 
 /* Medium screens (577px to 992px) */
-@media (min-width: 577px) and (max-width: 992px) {
+/* @media (min-width: 577px) and (max-width: 992px) {
 	.firstheadeasypayment {
 		width: 80%;
 		margin-left: 10%;
@@ -1931,9 +1751,9 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.easyPaymentCardBottomBoundary table {
 		width: 100%;
 	}
-}
+} */
 
-/* 4K large screens (2560px and above) */
+/* 4K large screens (2560px and above)  
 @media (min-width: 2560px) {
 	.firstheadeasypayment {
 		width: 1000px;
@@ -1963,7 +1783,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	.easyPaymentCardBottomBoundary table {
 		width: 100%;
 	}
-}
+} */
 
 /*
 
@@ -1972,7 +1792,12 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 */
 
 /* ///  easy payment section  */
-
+/* .easypaymentboundary {
+	background-image: url("/assets/custom.svg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .teamPayHead {
 	font-size: 96px;
 	font-weight: 200;
@@ -1992,13 +1817,11 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-family: Roboto;
 	text-align: left;
 }
-
 .easyPayBoun {
-	background-image: url("/assets/custom.svg");
 	padding: 20px;
-	background-position-y: -230px;
+	max-width: 1388px;
+	margin: auto;
 }
-
 .firstheadeasypayment {
 	width: 506px;
 	height: 91px;
@@ -2013,6 +1836,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	display: flex;
 	justify-content: space-between;
 }
+
 .easypaymentcardboundary {
 	float: right;
 	margin-right: 157px;
@@ -2081,9 +1905,11 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	font-weight: 700;
 	line-height: 17.07px;
 	text-align: left;
-}
+} */
 
-.easypaybottomboun {
+/* 
+ */
+/* .easypaybottomboun {
 	margin-top: 4px;
 	margin-left: 161px;
 }
@@ -2164,7 +1990,7 @@ Experice Section ..........,,,,,,,,,,,,,,,..........
 	line-height: 29.13px;
 	font-family: Roboto;
 	text-align: left;
-}
+} */
 /* Media Queries */
 @media (max-width: 767px) {
 	.easypaymentcardboundary {
