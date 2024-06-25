@@ -8,4 +8,10 @@ export default defineConfig({
 			external: ["react-intersection-observer"],
 		},
 	},
+	optimizeDeps: {
+	    include: ['react-intersection-observer'],
+	},
 })
+
+  
+
