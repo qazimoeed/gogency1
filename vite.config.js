@@ -10,4 +10,11 @@ export default defineConfig({
       external: ['react', 'react-dom', 'react-intersection-observer'],
     },
   },
+   resolve: {
+    alias: {
+      'react-intersection-observer': 'react-intersection-observer', // Ensure this matches the package name in node_modules
+    },
+  },
 });
+ 
+ 
